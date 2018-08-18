@@ -1,0 +1,668 @@
+html
+
+.site-navigation {
+/* Каталог Доставка и оплата о Компании   */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #ffffff;
+}
+
+.user-login {
+  /* вход */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #ffffff;
+}
+
+.basket-link-empty {
+/* Корзина */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #ffffff;
+}
+
+.contacts-caption {
+  /* с 10 до 20 ежедневно */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #ffffff;
+}
+
+.phone {
+  /* 8 812 450-25-25 */
+font-size: 22px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #ffffff;
+}
+
+h2 .slider-tittle {
+/* Крем-брюле и пломбр с малиновым джемом */
+font-size: 60px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 60,35px;
+color: #ffffff;
+}
+
+h2 .slider-tittle {
+/* Шококладный пломбр и лимонный сорбет */
+font-size: 60px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 60px;
+color: #ffffff;
+}
+
+h2 .slider-tittle {
+/* Пломбир с помадкой и клубничный сорбет */
+font-size: 60px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 60px;
+color: #ffffff;
+}
+
+.btn-slider {
+/* Давайте оба */
+font-size: 32px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 44px;
+color: #ffffff;
+}
+
+h3 .offer-title {
+/* Малинка даром!*/
+font-size: 35px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 41px;
+color: #ffffff;
+}
+
+p .offer-text {
+/* При покупке 2 кг любого фруктового мороженого,
+ добавим в ваш заказ банку малинового варенья бесплатно.!*/
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+a .btn-offer {
+/* Хочу варенье!*/
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #ffffff;
+}
+
+h3 .offer-title {
+/* Шоколадки даром!*/
+font-size: 35px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 41px;
+color: #ffffff;
+}
+
+p .offer-text {
+/* При покупке 2 кг пломбира, добавим
+ в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.!*/
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+a .btn-offer {
+/* Хочу шоколадки!*/
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #ffffff;
+}
+
+p .catalog-item-price {
+/* 310*/
+font-size: 45px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+span .weight {
+/* кг */
+font-size: 30px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+a .catalog-item-title {
+/* Сливочное с апельсиновым джемом
+и цитрусовой стружкой */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+p .catalog-item-price {
+/* 380*/
+font-size: 45px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+span .weight {
+/* кг */
+font-size: 30px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+a .catalog-item-title {
+/* Сливочно-кофейное с
+кусочками шоколада */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+p .catalog-item-price {
+/* 355*/
+font-size: 45px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+span .weight {
+/* кг */
+font-size: 30px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+a .catalog-item-title {
+/* Сливочно-клубничное с
+присыпкой из белого шоколада */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+p .catalog-item-price {
+/* 415*/
+font-size: 45px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+span .weight {
+/* кг */
+font-size: 30px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 45px;
+color: #ffffff;
+}
+
+a .catalog-item-title {
+/* Сливочное крем-брюле
+с карамельной подливкой */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #ffffff;
+}
+
+h2 .about-title {
+/* Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженого собственного
+производства на развес */
+font-size: 24px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 30px;
+color: #323232;
+}
+
+.about-item-equipment {
+/* Все наше мороженое изготавливается на собственном производстве,
+ с использованием современного оборудования
+  и проверенных временем технологий */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+.about-item-natural-products{
+/*Для приготовления мороженого используются настоящие сливки и молоко
+ высочайшего качества. Все дополнительные ингриденты и добавки
+ произведены из натурального, экологически чистого сырья. */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+.about-item-purchase {
+/* Закупка ингридиентов производится только у проверенных фермерских
+хозяйств и компаний, с которым нас связывает долговременное сотрудничество*/
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+.about-item-quality {
+/* Доставка нашего мороженого до заказчиков осуществляется в специальном
+ термопакете, который не дает мороженому растаять в пути и позволяет
+  сохранить превосходный вкус. */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+h2 .blog-title {
+/* Новое в нашем блоге. */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+.blog-link {
+/* 10 способов сервировки фруктовых щербетов к столу. */
+font-size: 24px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 30px;
+color: #323232;
+}
+
+p .subscribe-text {
+/* Подпишитесь на нашу сладкую рассылку и будете всегда в курсе самого
+ вкусного, что у нас происходит. Обещаем не спамить и не слать всякой
+  ненужной ерунды. Честно =) */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #5a5a5a;
+}
+
+p {
+/* Электронная почта! */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+}
+
+.btn-subscribe {
+/* Отправить */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #fefefe;
+}
+
+p {
+/* Адрес главного офиса и офлайн-магазина: */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 20px;
+color: #323232;
+}
+
+b {
+/* ул. Большая Конюшенная
+19/8, Санкт-Петербург */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #323232;
+}
+
+p {
+/* Для заказов по телефону */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 20px;
+color: #323232;
+}
+
+a .phone {
+/* 8 812 450-25-25 */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+p .contacts-caption {
+/* с 10 до 20 ежедневно */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 22px;
+color: #323232;
+}
+
+a .btn-contacts {
+/* Форма обратной связи */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #fefefe;
+}
+
+a .heart {
+/* Для поставщиков */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #ffffff;
+}
+
+a {
+/* О производстве */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #ffffff;
+}
+
+a {
+/* Наши документы */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #ffffff;
+}
+
+a {
+/* Экологические стандарты */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #ffffff;
+}
+
+p .copyright {
+/* Сделано в © 2017 */
+font-size: 12px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #fefefe;
+}
+
+a .copyright-link {
+/* HTML Academy */
+font-size: 12px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 18px;
+color: #fefefe;
+}
+
+ul .submenu {
+/* Новинки */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+}
+
+ul .submenu {
+/* Сливочное */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+}
+
+ul .submenu {
+/* Щербеты */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+}
+
+ul .submenu {
+/* Фруктовый лед */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+}
+
+ul .submenu {
+/* Мелорин */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+}
+
+p {
+/* Электронная почта */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+}
+
+p {
+/* Пароль */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+}
+
+a .button {
+/* Войти */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #fefefe;
+}
+
+a .button {
+/* Забыли пароль */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #323232;
+}
+
+a .button {
+/* Новая регистрация */
+font-size: 13px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #323232;
+}
+
+p {
+/* Что ищем? */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+}
+
+h2 {
+/* Мы обязательно вам ответим! */
+font-size: 24px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 28px;
+color: #999999;
+}
+
+p {
+/* Как вас зовут? */
+font-size: 16px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+}
+
+h2 {
+/* Ваша почта для ответа? */
+font-size: 24px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 28px;
+color: #999999;
+}
+
+h2 {
+/* Напишите что-нибудь... */
+font-size: 24px;
+font-family:"Roboto";
+font-weight: medium;
+letter-spacing: 0.0em;
+line-height: 28px;
+color: #999999;
+}
+
+a .button {
+/* Отправить */
+font-size: 18px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #fefefe;
+}
