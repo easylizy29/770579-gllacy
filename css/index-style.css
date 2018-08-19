@@ -468,6 +468,14 @@ font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 30px;
 color: #323232;
+line-height: 1.25;
+text-align: left;
+position: absolute;
+left: 46.844px;
+top: 1333.984px;
+width: 1013px;
+height: 54px;
+z-index: 131;
 }
 
 .about-item-equipment {
@@ -480,6 +488,14 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 102.986px;
+top: 1407.546px;
+width: 476px;
+height: 171px;
+z-index: 126;
 }
 
 .about-item-natural-products{
@@ -492,6 +508,14 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 102.986px;
+top: 1407.546px;
+width: 476px;
+height: 171px;
+z-index: 126;
 }
 
 .about-item-purchase {
@@ -503,6 +527,14 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 669.986px;
+top: 1407.509px;
+width: 470px;
+height: 148px;
+z-index: 125;
 }
 
 .about-item-quality {
@@ -515,6 +547,14 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 669.986px;
+top: 1407.509px;
+width: 470px;
+height: 148px;
+z-index: 125;
 }
 
 h2 .blog-title {
@@ -525,6 +565,14 @@ font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 45.937px;
+top: 1670.546px;
+width: 161px;
+height: 14px;
+z-index: 120;
 }
 
 .blog-link {
@@ -535,6 +583,14 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 30px;
 color: #323232;
+line-height: 1.25;
+text-align: left;
+position: absolute;
+left: 44.937px;
+top: 1703.85px;
+width: 279px;
+height: 84px;
+z-index: 118;
 }
 
 p .subscribe-text {
@@ -547,6 +603,14 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #5a5a5a;
+line-height: 1.375;
+text-align: left;
+position: absolute;
+left: 638.937px;
+top: 1681.546px;
+width: 506px;
+height: 61px;
+z-index: 112;
 }
 
 p {
@@ -557,6 +621,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #999999;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 653.468px;
+top: 1792.509px;
+z-index: 111;
 }
 
 .btn-subscribe {
@@ -567,7 +637,15 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #fefefe;
+line-height: 1.333;
+text-align: left;
+position: absolute;
+left: 1036.844px;
+top: 1791.771px;
+z-index: 108;
 }
+
+
 
 p {
 /* Адрес главного офиса и офлайн-магазина: */
@@ -577,6 +655,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 20px;
 color: #323232;
+line-height: 1.429;
+text-align: left;
+position: absolute;
+left: 895.937px;
+top: 1993.217px;
+z-index: 96;
 }
 
 b {
@@ -588,6 +672,15 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #323232;
+font-weight: bold;
+line-height: 1.333;
+text-align: left;
+position: absolute;
+left: 895.937px;
+top: 2042.872px;
+width: 220px;
+height: 41px;
+z-index: 95;
 }
 
 p {
@@ -598,6 +691,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 20px;
 color: #323232;
+line-height: 1.429;
+text-align: left;
+position: absolute;
+left: 895.98px;
+top: 2100.247px;
+z-index: 94;
 }
 
 a .phone {
@@ -608,6 +707,14 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.222;
+text-align: left;
+position: absolute;
+left: 895.844px;
+top: 2129.872px;
+width: 152px;
+height: 39px;
+z-index: 93;
 }
 
 p .contacts-caption {
@@ -618,6 +725,14 @@ font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 22px;
 color: #323232;
+line-height: 1.222;
+text-align: left;
+position: absolute;
+left: 895.844px;
+top: 2129.872px;
+width: 152px;
+height: 39px;
+z-index: 93;
 }
 
 a .btn-contacts {
@@ -628,6 +743,12 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #fefefe;
+line-height: 1.333;
+text-align: left;
+position: absolute;
+left: 923.844px;
+top: 2207.875px;
+z-index: 91;
 }
 
 a .heart {
@@ -638,6 +759,12 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #ffffff;
+line-height: 1.385;
+text-align: left;
+position: absolute;
+left: 448.977px;
+top: 2363.619px;
+z-index: 62;
 }
 
 a {
@@ -648,6 +775,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #ffffff;
+line-height: 1.385;
+text-align: left;
+position: absolute;
+left: 447.938px;
+top: 2385.619px;
+z-index: 61;
 }
 
 a {
@@ -658,6 +791,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #ffffff;
+line-height: 1.385;
+text-align: left;
+position: absolute;
+left: 590.938px;
+top: 2363.555px;
+z-index: 60;
 }
 
 a {
@@ -668,6 +807,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #ffffff;
+line-height: 1.385;
+text-align: left;
+position: absolute;
+left: 591.242px;
+top: 2385.619px;
+z-index: 59;
 }
 
 p .copyright {
@@ -678,6 +823,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #fefefe;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 983.937px;
+top: 2391.992px;
+z-index: 54;
 }
 
 a .copyright-link {
@@ -688,6 +839,28 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 18px;
 color: #fefefe;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 983.937px;
+top: 2391.992px;
+z-index: 54;
+}
+
+li .submenu {
+/* Каталог */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: bold;
+letter-spacing: 0.0em;
+line-height: 16px;
+color: #323232;
+line-height: 1.125;
+text-align: left;
+position: absolute;
+left: 203.937px;
+top: 29.5px;
+z-index: 256;
 }
 
 ul .submenu {
@@ -698,6 +871,13 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 16px;
 color: #323232;
+font-weight: bold;
+line-height: 1.143;
+text-align: left;
+position: absolute;
+left: 203.937px;
+top: 70.499px;
+z-index: 254;
 }
 
 ul .submenu {
@@ -708,6 +888,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 16px;
 color: #323232;
+line-height: 1.143;
+text-align: left;
+position: absolute;
+left: 202.937px;
+top: 124.249px;
+z-index: 252;
 }
 
 ul .submenu {
@@ -718,6 +904,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 16px;
 color: #323232;
+line-height: 1.143;
+text-align: left;
+position: absolute;
+left: 202.937px;
+top: 124.249px;
+z-index: 252;
 }
 
 ul .submenu {
@@ -728,6 +920,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 16px;
 color: #323232;
+line-height: 1.143;
+text-align: left;
+position: absolute;
+left: 202.937px;
+top: 124.249px;
+z-index: 252;
 }
 
 ul .submenu {
@@ -738,7 +936,28 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 16px;
 color: #323232;
+line-height: 1.143;
+text-align: left;
+position: absolute;
+left: 202.937px;
+top: 124.249px;
+z-index: 252;
 }
+
+p {
+/* Вход */
+font-size: 14px;
+font-family:"Roboto";
+font-weight: regular;
+letter-spacing: 0.0em;
+line-height: 24px;
+color: #999999;
+line-height: 1.143;
+text-align: right;
+position: absolute;
+left: 991.002px;
+top: 46.249px;
+z-index: 245;
 
 p {
 /* Электронная почта */
@@ -748,6 +967,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #999999;
+line-height: 1.714;
+text-align: left;
+position: absolute;
+left: 804.653px;
+top: 112.252px;
+z-index: 241;
 }
 
 p {
@@ -758,6 +983,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #999999;
+line-height: 1.714;
+text-align: left;
+position: absolute;
+left: 803.937px;
+top: 176.252px;
+z-index: 239;
 }
 
 a .button {
@@ -768,6 +999,13 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #fefefe;
+font-weight: bold;
+line-height: 1.333;
+text-align: left;
+position: absolute;
+left: 813.844px;
+top: 217.503px;
+z-index: 236;
 }
 
 a .button {
@@ -778,6 +1016,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #323232;
+line-height: 1.846;
+text-align: left;
+position: absolute;
+left: 909.643px;
+top: 229.558px;
+z-index: 233;
 }
 
 a .button {
@@ -788,6 +1032,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #323232;
+line-height: 1.846;
+text-align: left;
+position: absolute;
+left: 909.938px;
+top: 249.558px;
+z-index: 232;
 }
 
 p {
@@ -798,6 +1048,12 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #999999;
+line-height: 1.714;
+text-align: left;
+position: absolute;
+left: 631.937px;
+top: 112.252px;
+z-index: 221;
 }
 
 h2 {
@@ -808,6 +1064,14 @@ font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 28px;
 color: #999999;
+line-height: 1.167;
+text-align: left;
+position: absolute;
+left: 385.844px;
+top: 381.952px;
+width: 348px;
+height: 20px;
+z-index: 214;
 }
 
 p {
@@ -818,16 +1082,28 @@ font-weight: regular;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #999999;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 400.937px;
+top: 434.546px;
+z-index: 213;
 }
 
 h2 {
 /* Ваша почта для ответа? */
-font-size: 24px;
+font-size: 16px;
 font-family:"Roboto";
 font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 28px;
 color: #999999;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 400.937px;
+top: 498.509px;
+z-index: 211;
 }
 
 h2 {
@@ -838,6 +1114,12 @@ font-weight: medium;
 letter-spacing: 0.0em;
 line-height: 28px;
 color: #999999;
+line-height: 1.5;
+text-align: left;
+position: absolute;
+left: 400.937px;
+top: 560.546px;
+z-index: 209;
 }
 
 a .button {
@@ -848,4 +1130,11 @@ font-weight: bold;
 letter-spacing: 0.0em;
 line-height: 24px;
 color: #fefefe;
+font-weight: bold;
+line-height: 1.333;
+text-align: left;
+position: absolute;
+left: 700.844px;
+top: 741.771px;
+z-index: 206;
 }
