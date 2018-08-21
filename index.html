@@ -29,6 +29,11 @@
         </ul>
         <ul class="user-navigation">
           <li class="user-search"><a>Поиск</a>
+            <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
+              <div class="field-wrapper">
+                <input type="search" name="search" id="search-field" required>
+                <label for="search-field">Что ищем?</label>
+              </div>
           </li>
           <li class="user-login"><a>Вход</a>
           </li>
@@ -169,8 +174,8 @@
         <div class="blog">
           <p class="subscribe-text"> Подпишитесь на нашу сладкую рассылку и будете всегда в курсе самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
           <div class="field-wrapper">
-            <label class="field-caption" for="email">Электронная почта</label>
             <input type="email" id="email">
+            <label class="field-caption" for="email">Электронная почта</label>
           </div>
           <button class="btn btn-subscribe" type="submit">Отправить</button>
         </div>
