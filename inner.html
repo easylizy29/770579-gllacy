@@ -28,13 +28,13 @@
           <li><a href="company.html">О компании</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="user-search"><a>Поиск</a>
+          <li class="user-search"><button class="search">Поиск</button>
             <!-- Здесь будет форма поиска -->
           </li>
-          <li class="user-login"><a>Вход</a>
+          <li class="user-login"><button class="entrance">Вход</button>
             <!-- Здесь будет форма входа -->
           </li>
-          <li class="basket-link"><a>Корзина</a>
+          <li class="basket-link"><button class="bascet">Корзина</button>
             <!-- Здесь будет таблица -->
             <table>
               <tr>
@@ -55,6 +55,7 @@
                 <td class="result" colspan="5">И того: 750 руб.</td>
               </tr>
             </table>
+            <button class="btn make-order">Оформить заказ</button>
           </li>
         </ul>
         <p class="working-hours">
@@ -64,12 +65,28 @@
     </header>
     <main>
       <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a>
-          <li><a href="#">Каталог</a>
-            <li><a>Сливочное</a></li>
+        <li><button href="index.html">Главная</button>
+          <li><button href="#">Каталог</button>
+            <li><button>Сливочное</button></li>
       </ul>
       <h1 class="page-title">Сливочное мороженое</h1>
       <!-- <section>Здесь будет форма</section> -->
+      <section>
+        <div>
+          <label for="catalog"><button class="button">Сортировка</button></label>
+          <input type="text" name="catalog" value="empty">
+          <select name="catalog">
+              <option value="popular" selected><a href="#"><b>По популярности</b></a></option>
+              <option value="expensive"><a href="#">сначала недорогие</a></option>
+              <option value="notexpensive"><a href="#">сначала дорогие</a></option>
+              <option value="fat"><a href="#">по жирности</a></option>
+          </select>
+        </div>
+        <div class="half-width">
+          <label for="rating">Цена: 100 руб. - 500 руб.</label> 0
+          <input type="range" min="0" max="10" step="1" value="10">100
+        </div>
+      </section>
       <section class="catalog">
         <h2 class="visual-hidden">Католог мороженого</h2>
         <ul class="catalog-list">
@@ -264,10 +281,10 @@
     <footer class="main-footer">
       <div class="footer-socials">
         <ul class="social-list">
-          <li><a class="social-link" href="#">Твиттер</a>
-            <li><a class="social-link" href="#">Инстаграм</a>
-              <li><a class="social-link" href="#">Фейсбук</a>
-                <li><a class="social-link" href="#">Вконтакте</a>
+          <li><button class="social-link" href="#">Твиттер</button>
+            <li><button class="social-link" href="#">Инстаграм</button>
+              <li><button class="social-link" href="#">Фейсбук</button>
+                <li><button class="social-link" href="#">Вконтакте</button>
         </ul>
       </div>
       <ul class="footer-menu">
@@ -278,9 +295,9 @@
       </ul>
       <p class="copyright">
         Сделано в
-        <a class="copyright-link" href="https://htmlacademy.ru"></li>
+        <button class="copyright-link" href="https://htmlacademy.ru"></li>
           HTML Academy
-        </a> © 2017
+        </button> © 2017
       </p>
     </footer>
   </div>
