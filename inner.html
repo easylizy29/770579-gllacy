@@ -84,7 +84,32 @@
         </div>
         <div class="half-width">
           <label for="rating">Цена: 100 руб. - 500 руб.</label> 0
-          <input type="range" min="0" max="10" step="1" value="10">100
+          <input type="range" min="0" max="10" step="1" value="1">
+        </div>
+        <div class="filler">
+          <legend>Наполнители</legend>
+          <input type="checkbox" name="filler" id="filter-of-chocolate" checked>
+          <label for="filter-chocolate">шоколадные</label>
+          <input type="checkbox" name="filler" id="filter-of-sugar-coating" checked>
+          <label for="filter-sugar-coating">сахарные присыпки</label>
+          <input type="checkbox" name="filler" id="filter-of-fruits">
+          <label for="filter-fruits">фрукты</label>
+          <input type="checkbox" name="filler" id="filter-of-syrup">
+          <label for="filter-syrup">сиропы</label>
+          <input type="checkbox" name="filler" id="filter-of-jam">
+          <label for="filter-jam">джемы</label>
+        </div>
+        <div class="fat">
+          <legend>Жирность</legend>
+          <input type="radio" name="fat" value="zero" id="filter-">
+          <label for="filter-">0%</label>
+          <input type="radio" name="fat" value="ten" id="filter-ten" checked>
+          <label for="filter-">до 10%</label>
+          <input type="radio" name="fat" value="thirty" id="filter-thirty">
+          <label for="filter-">до 30%</label>
+          <input type="radio" name="fat" value="more-thirty" id="filter-more-thirty">
+          <label for="filter-">выше 30%</label>
+          <button class="btn btn-apply">Применить</button>
         </div>
       </section>
       <section class="catalog">
@@ -102,7 +127,7 @@
               <span class="weight">/кг</span></p>
             <a class="catalog-item-title">Сливочное с апельсиновым джемом
           и цитрусовой стружкой</a>
-            <a class="btn btn-quick" href="#">Быстрый просмотр</a>
+            <button class="btn btn-quick" href="#">Быстрый просмотр</button>
           </li>
           <li class="catalog-item">
             <h3>
