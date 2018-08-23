@@ -14,38 +14,46 @@
         <img src="img/logo.svg" width="154" height="64" alt="Глейси"
         alt="Логотип-магазина-Глейси">
         </a>
-        <div>
-          <button class="button">Каталог</button>
+        <nav>
+          <label for="catalog"><button class="button">Каталог</button></label>
+          <input type="text" name="catalog" value="empty">
           <select name="catalog">
-            <option value="catalog"><a href="#">Каталог</a></option>
               <option value="new"><a href="#">Новинки</a></option>
               <option value="creamy"><a href="#">Сливочное</a></option>
               <option value="sherbet"><a href="#">Щербеты</a></option>
               <option value="fruit ice"><a href="#">Фруктовый лед</a></option>
               <option value="melorin"><a href="#">Мелорин</a></option>
           </select>
-        </div>
-        <a href="delivery-and-price.html">Доставка и оплата</a>
-        <a href="company.html">О компании</a>
-        <div class="user-search"><a>Поиск</a>
-          <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
+        </nav>
+        <li><a href="delivery-and-price.html">Доставка и оплата</a></li>
+        <li><a href="company.html">О компании</a></li>
+        <ul class="user-navigation">
+          <li class="user-search">
+            <a>Поиск <form class="search-form" action="http://echo.htmlacademy.ru" method="post"></a>
             <div class="field-wrapper">
-              <input type="search" name="search" id="search-field" required>
               <label for="search-field">Что ищем?</label>
+              <input type="search" name="search" id="search-field" required>
             </div>
-        </div>
-        <label for="user-login"><button class="button">Вход</button></label>
-        <div class="field-wrapper">
-          <label for="login-field">Электронная почта</label>
-          <input type="login" name="login" id="login-field" required>
-        </div>
-        <div class="field-wrapper">
-          <label for="password-field">Пароль</label>
-          <input type="password" name="password" id="password-field" required>
-        </div>
-        </li>
-        <li class="basket-link-empty"><a>Пусто</a>
-        </li>
+          </li>
+          <li>
+            <label for="entrance-field"><a href="entrance">Вход</a></label>
+            <input type="entrance" name="login" id="login-field" required>
+            <label for="user-login">Электронная почта</label>
+            <input type="login" name="login" id="login-field" required>
+            <div class="field-wrapper">
+            </div>
+            <div class="field-wrapper">
+              <label for="password-field">Пароль</label>
+              <input type="password" name="password" id="password-field" required>
+            </div>
+            <button type="submit"></button>
+            <div class="login-links">
+              <a href="#">Забыли пароль</a>
+              <a href="#">Новая регистрация</a>
+            </div>
+          </li>
+          <li class="basket-link-empty"><a>Пусто</a>
+          </li>
         </ul>
         <p class="working-hours">
           C 10 до 20, ежедневно
@@ -58,21 +66,22 @@
         <ul class="slider-list">
           <li class="slider-item slider-item-1">
             <h2 class="slider-tittle">Крем-брюле и пломбр с малиновым джемом</h2>
-            <button class="btn btn-slider">Давайте оба</button>
+            <a href="#">Давайте оба</a>
           </li>
           <li class="slider-item slider-item-2">
             <h2 class="slider-tittle">Шококладный пломбр и лимонный сорбет</h2>
-            <button class="btn btn-slider">Давайте оба</button>
+            <a class="#">Давайте оба</a>
           </li>
           <li class="slider-item slider-item-3">
             <h2 class="slider-tittle">Пломбир с помадкой и клубничный сорбет</h2>
-            <button class="btn btn-slider">Давайте оба</button>
+            <a class="#">Давайте оба</a>
           </li>
         </ul>
         <ul class="slider-pagination">
-          <li class="active"><button href="#">Первый слайд</button>
-            <li><button href="#">Второй слайд</button>
-              <li><button href="#">Третий слайд</button>
+          <li class="active">
+            <button class="slide-btn">Первый слайд</button></li>
+          <li><button class="slide-btn">Второй слайд</button></li>
+          <li><button class="slide-btn">Третий слайд</button></li>
         </ul>
       </div>
       <section class="offer">
@@ -81,12 +90,12 @@
           <li class="offer-item">
             <h3 class="offer-title">Малинка даром!</h3>
             <p class="offer-text">При покуке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-            <button class="btn btn-offer" href="#">Хочу варенье!</button>
+            <a href="#">Хочу варенье!</a>
           </li>
           <li class="offer-item">
             <h3 class="visually-hidden">Шоколадки даром!</h3>
             <p class="offer-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <button class="btn btn-offer" href="#">Хочу шоколадки!</button>
+            <a href="#">Хочу шоколадки!</a>
           </li>
         </ul>
       </section>
@@ -99,7 +108,7 @@
              alt="Сливочное с апельсиновым джемом
              и цитрусовой стружкой">
             </a>
-            </h3>
+          </h3>
           <p class="catalog-item-price">310
             <span class="weight">/кг</span></p>
           <a class="catalog-item-title">Сливочное с апельсиновым джемом
@@ -199,14 +208,14 @@
         <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a>
         <br>
         <p class="contacts-caption"><small>(с 10 до 20 ежедневно)</small></p>
-        <button class="btn btn-contacts" href="feedback.html">Форма обратной связи</button>
+        <a href="feedback.html">Форма обратной связи</a>
       </div>
       <div class="footer-socials">
         <ul class="social-list">
-          <li><button class="social-link" href="#">Твиттер</button>
-            <li><button class="social-link" href="#">Инстаграм</button>
-              <li><button class="social-link" href="#">Фейсбук</button>
-                <li><button class="social-link" href="#">Вконтакте</button>
+          <li><a class="social-link" href="#">Твиттер</a></li>
+          <li><a class="social-link" href="#">Инстаграм</a></li>
+          <li><a class="social-link" href="#">Фейсбук</a></li>
+          <li><a class="social-link" href="#">Вконтакте</a></li>
         </ul>
       </div>
       <ul class="footer-menu">
@@ -217,38 +226,12 @@
       </ul>
       <p class="copyright">
         Сделано в
-        <button class="copyright-link" href="https://htmlacademy.ru">
+        <a href="https://htmlacademy.ru">
         HTML Academy
-      </button> © 2017
+      </a> © 2017
       </p>
     </footer>
-    <div class="modal-modal-map">
-      <h2 class="visually-hidden">Как до нас добираться</h2>
-      <span class="modal-close"></span>
-      <a class="main-header-logo">
-              <img src="img/icecream-peacture-svg" width="154" height="64"
-                 alt="Логотип-магазина-Глейси">
-            </a>
-    </div>
   </div>
-  <section class="modal-modal-account">
-    <h2 class="visually-hidden">Аккаунт</h2>
-    <figure>
-      <figure>
-        <figure>
-          <p><b>Вход</b></p>
-        </figure>
-        <p>Электронная почта</p>
-      </figure>
-      <figure>
-        <p>Пароль</p>
-      </figure>
-    </figure>
-    <button class="button" href="#">Войти</button>
-    <button class="button" href="#">Забыли пароль</button>
-    <button class="button" href="#">Новая регистрация</button>
-  </section>
-
   <section class="search">
     <div>
       <label for="search">Что ищем?</label>
@@ -257,24 +240,23 @@
   </section>
 
   <section class="feedback">
-    <div>
-      <h2>Мы обязательно вам ответим!</h2>
-      <label for="name">Как вас зовут?</label>
-      <input type="name" name="name" id="name" required>
+    <h2 class="review-name">Мы обязательно вам ответим!</h2>
+    <form class="name-form" action="http://echo.htmlacademy.ru" method="post">
+      <div>
+        <label for="name">Как вас зовут?</label>
+        <input type="name" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="email-for-answer">Ваша почта для ответа?</label>
+        <input type="email-for-answer" name="email-for-answer" id="answer" required>
+      </div>
+      <div>
+        <label for="write-something">Напишите что-нибудь...</label>
+        <textarea type="write" name="write" id="write-something" required>
     </div>
-    <div>
-      <label for="email-for-answer">Ваша почта для ответа?</label>
-      <input type="email-for-answer" name="email-for-answer" id="answer" required>
-    </div>
-    <div>
-      <label for="written">Напишите что-нибудь...</label>
-      <input type="written" name="written" id="write-something" required>
-    </div>
-    <div>
-      <button class="button" href="#">Отправить</button>
-    </div>
+    <button type="submit" class="button">Отправить</button>
+  </form>
   </section>
-
 </body>
 
 </html>
