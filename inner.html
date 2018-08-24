@@ -28,13 +28,13 @@
           <li><a href="company.html">О компании</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="user-search"><button class="search">Поиск</button>
+          <li class="user-search"><a>Поиск</a>
             <!-- Здесь будет форма поиска -->
           </li>
-          <li class="user-login"><button class="entrance">Вход</button>
+          <li class="user-login"><a>Вход</a>
             <!-- Здесь будет форма входа -->
           </li>
-          <li class="basket-link"><button class="bascet">Корзина</button>
+          <li class="basket-link"><a>Корзина</a>
             <!-- Здесь будет таблица -->
             <table>
               <tr>
@@ -55,7 +55,6 @@
                 <td class="result" colspan="5">И того: 750 руб.</td>
               </tr>
             </table>
-            <button class="btn make-order">Оформить заказ</button>
           </li>
         </ul>
         <p class="working-hours">
@@ -65,53 +64,12 @@
     </header>
     <main>
       <ul class="breadcrumbs">
-        <li><button href="index.html">Главная</button>
-          <li><button href="#">Каталог</button>
-            <li><button>Сливочное</button></li>
+        <li><a href="index.html">Главная</a>
+          <li><a href="#">Каталог</a>
+            <li><a>Сливочное</a></li>
       </ul>
       <h1 class="page-title">Сливочное мороженое</h1>
       <!-- <section>Здесь будет форма</section> -->
-      <section>
-        <div>
-          <label for="catalog"><button class="button">Сортировка</button></label>
-          <input type="text" name="catalog" value="empty">
-          <select name="catalog">
-              <option value="popular" selected><a href="#"><b>По популярности</b></a></option>
-              <option value="expensive"><a href="#">сначала недорогие</a></option>
-              <option value="notexpensive"><a href="#">сначала дорогие</a></option>
-              <option value="fat"><a href="#">по жирности</a></option>
-          </select>
-        </div>
-        <div class="half-width">
-          <label for="rating">Цена: 100 руб. - 500 руб.</label> 0
-          <input type="range" min="0" max="10" step="1" value="1">
-        </div>
-        <div class="filler">
-          <legend>Наполнители</legend>
-          <input type="checkbox" name="filler" id="filter-of-chocolate" checked>
-          <label for="filter-chocolate">шоколадные</label>
-          <input type="checkbox" name="filler" id="filter-of-sugar-coating" checked>
-          <label for="filter-sugar-coating">сахарные присыпки</label>
-          <input type="checkbox" name="filler" id="filter-of-fruits">
-          <label for="filter-fruits">фрукты</label>
-          <input type="checkbox" name="filler" id="filter-of-syrup">
-          <label for="filter-syrup">сиропы</label>
-          <input type="checkbox" name="filler" id="filter-of-jam">
-          <label for="filter-jam">джемы</label>
-        </div>
-        <div class="fat">
-          <legend>Жирность</legend>
-          <input type="radio" name="fat" value="zero" id="filter-">
-          <label for="filter-">0%</label>
-          <input type="radio" name="fat" value="ten" id="filter-ten" checked>
-          <label for="filter-">до 10%</label>
-          <input type="radio" name="fat" value="thirty" id="filter-thirty">
-          <label for="filter-">до 30%</label>
-          <input type="radio" name="fat" value="more-thirty" id="filter-more-thirty">
-          <label for="filter-">выше 30%</label>
-          <button class="btn btn-apply">Применить</button>
-        </div>
-      </section>
       <section class="catalog">
         <h2 class="visual-hidden">Католог мороженого</h2>
         <ul class="catalog-list">
@@ -127,7 +85,7 @@
               <span class="weight">/кг</span></p>
             <a class="catalog-item-title">Сливочное с апельсиновым джемом
           и цитрусовой стружкой</a>
-            <button class="btn btn-quick" href="#">Быстрый просмотр</button>
+            <a class="btn btn-quick" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
             <h3>
@@ -306,10 +264,10 @@
     <footer class="main-footer">
       <div class="footer-socials">
         <ul class="social-list">
-          <li><button class="social-link" href="#">Твиттер</button>
-            <li><button class="social-link" href="#">Инстаграм</button>
-              <li><button class="social-link" href="#">Фейсбук</button>
-                <li><button class="social-link" href="#">Вконтакте</button>
+          <li><a class="social-link" href="#">Твиттер</a>
+            <li><a class="social-link" href="#">Инстаграм</a>
+              <li><a class="social-link" href="#">Фейсбук</a>
+                <li><a class="social-link" href="#">Вконтакте</a>
         </ul>
       </div>
       <ul class="footer-menu">
@@ -320,9 +278,9 @@
       </ul>
       <p class="copyright">
         Сделано в
-        <button class="copyright-link" href="https://htmlacademy.ru"></li>
+        <a class="copyright-link" href="https://htmlacademy.ru"></li>
           HTML Academy
-        </button> © 2017
+        </a> © 2017
       </p>
     </footer>
   </div>
