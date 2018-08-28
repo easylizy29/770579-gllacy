@@ -1,0 +1,284 @@
+body {
+ margin: 0;
+ padding: 0;
+
+ font-family: "Roboto";
+ font-size: 16px;
+ line-height: 22px;
+ font-weight: 500;
+ color: #ffffff;
+ text-transform: lowercase;
+
+ background-color: #849d8f;
+ background-image:
+ url("img/slider-bg1.jpg"),
+ url("img/slider-bg2.jpg"),
+ url("img/slider-bg3.jpg");
+ background-position: top center;
+ background-repeat: no-repeat;
+}
+
+.header a {
+  text-decoration: underline;
+}
+
+a:hover (none.header) {
+ text-decoration:underline;
+ color: #ffffff;
+}
+
+ a:focus, (none.header)
+ a:active (none.header):  {
+  text-decoration:underline;
+  color: #e84d37;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #f7f6f3;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+text-align: center;
+}
+
+.slider-tittle h2 {
+  font-size: 60px;
+  line-height: 60,35px;
+}
+
+.offer-title h3 {
+  font-size: 35px;
+  line-height: 41px;
+}
+.offer-text p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.section-offer {
+color: #ffffff;
+
+background-color: #b82443;
+background-color: #3d2418;
+/* section один, а картинки 2..Один цвет брать или раздробить эти классы.. */
+background-image: url("img/crimson-bakground.jpg"),url("img/chocolate-bakground.jpg");
+background-position: left, right;
+/* (не понимаю как рассположить) */
+background-repeat: no-repeat;
+}
+
+.section-offer h3 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.offer-list {
+list-style: none;
+}
+
+.offer-text {
+  font-size: 18px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.button {
+  font: inherit;
+
+  color:  #ffffff;
+  vertical-align: middle;
+  text-transform:  uppercase;
+  /* не очень понимаю - нужен uppercase или нет */
+  background-color: #f16542;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #da5437;
+}
+
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog section {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.section  h3{
+  background-image:
+  url("img/icecream-orange.jpg"),
+  url("img/icecream-coffee.jpg"),
+  url("img/icecream-strawberry.jpg"),
+  url("img/icecream-caramel.jpg"),
+  url("img/icecream-lingonberry.jpg"),
+  url("img/icecream-blueberry.jpg"),
+  url("img/icecream-lemon-caramel.jpg"),
+  url("img/icecream-creamy.jpg"),
+  url("icecream-vanilla.jpg"),
+  url("icecream-mentol.jpg"),
+  url("icecream-dark-chocolate.jpg"),
+  url("icecream-mint-syrup.jpg"),
+  url("img/hit.svg");
+  background-position: left, right, top, bottom;
+  /* (не понимаю как рассположить) */
+  background-repeat: no-repeat;
+}
+.catalog-item-price p {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.sectiom-about {
+  color: #323232;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  background-color: #ebdfc7;
+
+  background-image:
+  url("img/wafer.jpg"),
+  url("img/cow.svg"),
+  url("img/ice-cream.svg"),
+  url("img/eco.svg"),
+  url("img/thermometer.svg"),;
+  background-position: ;
+  /* (не понимаю как рассположить) */
+  background-repeat: no-repeat;
+}
+
+.about-title h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #323232;
+}
+
+.about-list {
+list-style: none;
+}
+
+.blog div {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232;
+  text-decoration: underline;
+
+  background-color: #ffffff;
+}
+
+.blog2 div {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+.search input hover,
+.text input hover,
+.password input hover,
+.email input hover,
+.email-for-answer input hover: {
+  font: inherit;
+
+  background-color: transparent;
+  border: 1px solid #b2b2b2;
+  /* не уверена в толщине рамки */
+}
+
+.search input focus,
+.text input focus,
+.password input focus,
+.email input focus,
+.email-for-answer input focus: {
+
+  background-color: transparent;
+  border: 2px solid #9a9a9a;
+}
+
+.search input active,
+.text input active,
+.password input active,
+.email input active,
+.email-for-answer input active: {
+  background-color: transparent;
+  border: 2px solid #2e88e4;
+}
+
+.map div {
+  background-image:
+  url("img/map.jpg");
+}
+
+.main-footer {
+  background-color: #849d8f;
+  background-image:
+   url("img/slider-bg1.jpg"),
+   url("img/slider-bg2.jpg"),
+   url("img/slider-bg3.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.footer-contacts a {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+text-decoration: none;
+}
+
+.footer-social {
+  text-align: left;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+color: (255, 255, 255, 0.8);
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #ffffff;
+  background-color: #849d8f;
+}
