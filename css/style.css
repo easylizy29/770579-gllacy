@@ -118,10 +118,24 @@ list-style: none;
   border: none;
 }
 
-.button:hover,
-.button:focus,
+.button:hover {
+  background-color: -;
+  shadow: #b05d55 2px 0px 2px 0.64;
+  /* внешняя тень у кнопок */
+  /* градиент у кнопок красных пока не написала  */
+}
+
+.button:focus {
+  background-color: -;
+    shadow: #942718 2px 0px 2px 0.64;
+      /* внешняя тень у кнопок */
+    /* градиент у кнопок красных пока не написала  */
+}
+
 .button:active {
-  background-color: #da5437;
+  background-color: -;
+    /* внутренняя тень у кнопок */
+    /* градиент у кнопок красных пока не написала  */
 }
 
 
@@ -238,10 +252,7 @@ list-style: none;
   border: 2px solid #2e88e4;
 }
 
-.map div {
-  background-image:
-  url("img/map.jpg");
-}
+
 
 .main-footer {
   background-color: #849d8f;
@@ -273,6 +284,19 @@ text-decoration: none;
   list-style: none;
 }
 
+.social-link-tw a {
+  background-image: url("img/tw.svg");
+}
+.social-link-in a {
+  background-image: url("img/in.svg");
+}
+.social-link social-link-fb a {
+  background-image: url("img/fb.svg");
+}
+.social-linksocial-link social-link-vk a {
+  background-image: url("img/vk.svg");
+}
+
 .social-button {
 color: (255, 255, 255, 0.8);
 }
@@ -281,4 +305,118 @@ color: (255, 255, 255, 0.8);
 .footer-copyright .button:focus {
   color: #ffffff;
   background-color: #849d8f;
+}
+
+.modal {
+color:;
+
+background-color: #849d8f;
+background-image:url("img/map.jpg");
+background-position: 0 0;
+background-repeat: no-repeat;
+}
+
+.main-header-logo a {
+background-image:url("img/icecream-peacture-svg");
+}
+
+.submenu {
+  list-style: none;
+}
+
+.submenu a:hover{
+    background-color: #fbded7;
+}
+
+.submenu a:focus{
+    background-color: #f6b5a5;
+}
+
+.submenu a:active {
+    background-color: #d07058;
+}
+
+.user-login input[type="text"],
+.user-login input[type="password"] {
+  font: inherit;
+  color: #999999;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #d3d3d2;
+}
+
+.login-links a {
+  font-size: 14px;
+  line-height: 24px;
+  font: inherit;
+  color: #999999;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #d3d3d2;
+}
+
+.user-login input:hover {
+border-color: 2px solid #9a9a9a;
+}
+.user-login input:focus {
+border-color: 2px solid #2e88e4;
+}
+
+
+.filter-checkbox fieldset,
+.filter-checkbox fieldset:checked {
+background-color: (239, 107, 107, 0.8);
+}
+
+.filter-checkbox fieldset:hover,
+.filter-checkbox fieldset:checked  {
+background-color: (239, 107, 107);
+}
+
+.filter-checkbox fieldset:disabled,
+.filter-checkbox fieldset:checked  {
+background-color: (239, 107, 107, 0.4);
+}
+
+.filter-radio fieldset,
+.filter-radio fieldset:checked {
+background-color: (239, 107, 107, 0.8);
+}
+
+.filter-radio fieldset:hover,
+.filter-radio fieldset:checked  {
+background-color: (239, 107, 107);
+}
+
+.filter-radio fieldset:disabled,
+.filter-radio fieldset:checked  {
+background-color: (239, 107, 107, 0.4);
+}
+
+.pagination-list:hover {
+  list-style: none;
+
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.pagination-list:focus {
+  list-style: none;
+
+  color: #ffffff;
+  background-color: (255, 255, 255, 0.2);
+}
+
+.pagination-list:active {
+  list-style: none;
+
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-quick a: {
+background-color: (248, 247, 244, 0.2) ;
+shadow: #a45454 20px 0px 20px 0.4;
 }
