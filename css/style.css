@@ -2,41 +2,46 @@ body {
  margin: 0;
  padding: 0;
 
- font-family: "Roboto";
+ font-family: "Roboto", Arial, sans-serif;
  font-size: 16px;
  line-height: 22px;
- font-weight: 500;
+ font-weight: 400;
  color: #ffffff;
- text-transform: lowercase;
 
  background-color: #849d8f;
- background-image:
- url("img/slider-bg1.jpg"),
- url("img/slider-bg2.jpg"),
- url("img/slider-bg3.jpg");
- background-position: top center;
- background-repeat: no-repeat;
 }
 
-.header a {
-  text-decoration: underline;
+li.slider-item.slider-item-1 {
+ background-image:url("../img/slider-bg1.jpg");
 }
 
-a:hover (none.header) {
+li.slider-item.slider-item-2 {
+ background-image:url("../img/slider-bg2.jpg");
+}
+
+li.slider-item.slider-item-3 {
+ background-image:url("../img/slider-bg3.jpg");
+}
+
+a {
  text-decoration:underline;
  color: #ffffff;
 }
 
- a:focus, (none.header)
- a:active (none.header):  {
-  text-decoration:underline;
+a:hover,
+a:focus {
+color: #ffbc9e;
+}
+
+
+ a:focus,
+ a:active :  {
   color: #e84d37;
 }
 
 .main-navigation {
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
   color: #ffffff;
 
   background-color: #849d8f;
@@ -77,22 +82,24 @@ text-align: center;
   line-height: 22px;
 }
 
-.section-offer {
+li.offer-item-1 {
 color: #ffffff;
-
 background-color: #b82443;
-background-color: #3d2418;
-/* section один, а картинки 2..Один цвет брать или раздробить эти классы.. */
-background-image: url("img/crimson-bakground.jpg"),url("img/chocolate-bakground.jpg");
-background-position: left, right;
-/* (не понимаю как рассположить) */
+background-image: url("../img/crimson-bakground.jpg");
 background-repeat: no-repeat;
 }
 
-.section-offer h3 {
+li.offer-item-2 {
+color: #ffffff;
+background-color: #3d2418;
+background-image: url("../img/chocolate-bakground.jpg");
+background-repeat: no-repeat;
+}
+
+ h3.offer-title {
   font-size: 35px;
   line-height: 41px;
-  font-weight: 400;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -112,30 +119,30 @@ list-style: none;
 
   color:  #ffffff;
   vertical-align: middle;
-  text-transform:  uppercase;
-  /* не очень понимаю - нужен uppercase или нет */
+
   background-color: #f16542;
   border: none;
 }
 
 .button:hover {
-  background-color: -;
-  shadow: #b05d55 2px 0px 2px 0.64;
+  background-color: #ec583c;
+  box-shadow: #b05d55 2px 0 2px (172, 16, 0, 0.64);
   /* внешняя тень у кнопок */
   /* градиент у кнопок красных пока не написала  */
 }
 
 .button:focus {
-  background-color: -;
-    shadow: #942718 2px 0px 2px 0.64;
+  background-color: #f07a63;
+  box-shadow: 2px 0px 2px rgba(172, 16, 0,);
       /* внешняя тень у кнопок */
     /* градиент у кнопок красных пока не написала  */
 }
 
 .button:active {
-  background-color: -;
+  background-color: #dd573b;
     /* внутренняя тень у кнопок */
     /* градиент у кнопок красных пока не написала  */
+  box-shadow: 2px 0 2px rgba(160, 32, 11, 0.76);
 }
 
 
@@ -143,53 +150,47 @@ list-style: none;
   list-style: none;
 }
 
-.catalog section {
+.catalog-item {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
-  text-decoration: underline;
 }
-.section  h3{
-  background-image:
-  url("img/icecream-orange.jpg"),
-  url("img/icecream-coffee.jpg"),
-  url("img/icecream-strawberry.jpg"),
-  url("img/icecream-caramel.jpg"),
-  url("img/icecream-lingonberry.jpg"),
-  url("img/icecream-blueberry.jpg"),
-  url("img/icecream-lemon-caramel.jpg"),
-  url("img/icecream-creamy.jpg"),
-  url("icecream-vanilla.jpg"),
-  url("icecream-mentol.jpg"),
-  url("icecream-dark-chocolate.jpg"),
-  url("icecream-mint-syrup.jpg"),
-  url("img/hit.svg");
-  background-position: left, right, top, bottom;
-  /* (не понимаю как рассположить) */
-  background-repeat: no-repeat;
-}
-.catalog-item-price p {
+
+.catalog-item-price {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
+  background-color: 1px 0 3px rgba(49, 50, 53, 0.50);
 }
 
-.sectiom-about {
+.about {
   color: #323232;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   background-color: #ebdfc7;
+  background-image: url("../img/wafer.jpg");
+  background-repeat: no-repeat;
+}
 
-  background-image:
-  url("img/wafer.jpg"),
-  url("img/cow.svg"),
-  url("img/ice-cream.svg"),
-  url("img/eco.svg"),
-  url("img/thermometer.svg"),;
-  background-position: ;
-  /* (не понимаю как рассположить) */
+li.about.about-item-equipment {
+  background-image:url("../img/eco.svg");
+  background-repeat: no-repeat;
+}
+
+li.about.about-item-natural-products {
+  background-image:url("../img/cow.svg");
+  background-repeat: no-repeat;
+}
+
+li.about.about-item-purchase {
+  background-image:url("../img/ice-cream.svg");
+  background-repeat: no-repeat;
+}
+
+li.about.about-item-quality {
+  background-image:url("../img/thermometer.svg");
   background-repeat: no-repeat;
 }
 
@@ -257,9 +258,9 @@ list-style: none;
 .main-footer {
   background-color: #849d8f;
   background-image:
-   url("img/slider-bg1.jpg"),
-   url("img/slider-bg2.jpg"),
-   url("img/slider-bg3.jpg");
+   url("../img/slider-bg1.jpg"),
+   url("../img/slider-bg2.jpg"),
+   url("../img/slider-bg3.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -285,20 +286,20 @@ text-decoration: none;
 }
 
 .social-link-tw a {
-  background-image: url("img/tw.svg");
+  background-image: url("../img/tw.svg");
 }
 .social-link-in a {
-  background-image: url("img/in.svg");
+  background-image: url("../img/in.svg");
 }
 .social-link social-link-fb a {
-  background-image: url("img/fb.svg");
+  background-image: url("../img/fb.svg");
 }
 .social-linksocial-link social-link-vk a {
-  background-image: url("img/vk.svg");
+  background-image: url("../img/vk.svg");
 }
 
 .social-button {
-color: (255, 255, 255, 0.8);
+color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-copyright .button:hover,
@@ -311,13 +312,13 @@ color: (255, 255, 255, 0.8);
 color:;
 
 background-color: #849d8f;
-background-image:url("img/map.jpg");
+background-image:url("../img/map.jpg");
 background-position: 0 0;
 background-repeat: no-repeat;
 }
 
 .main-header-logo a {
-background-image:url("img/icecream-peacture-svg");
+background-image:url("../img/icecream-peacture-svg");
 }
 
 .submenu {
@@ -372,27 +373,27 @@ background-color: (239, 107, 107, 0.8);
 
 .filter-checkbox fieldset:hover,
 .filter-checkbox fieldset:checked  {
-background-color: (239, 107, 107);
+background-color: rgba(239, 107, 107);
 }
 
 .filter-checkbox fieldset:disabled,
 .filter-checkbox fieldset:checked  {
-background-color: (239, 107, 107, 0.4);
+background-color: rgba(239, 107, 107, 0.4);
 }
 
 .filter-radio fieldset,
 .filter-radio fieldset:checked {
-background-color: (239, 107, 107, 0.8);
+background-color: rgba(239, 107, 107, 0.8);
 }
 
 .filter-radio fieldset:hover,
 .filter-radio fieldset:checked  {
-background-color: (239, 107, 107);
+background-color: rgba(239, 107, 107);
 }
 
 .filter-radio fieldset:disabled,
 .filter-radio fieldset:checked  {
-background-color: (239, 107, 107, 0.4);
+background-color: rgba(239, 107, 107, 0.4);
 }
 
 .pagination-list:hover {
@@ -406,7 +407,7 @@ background-color: (239, 107, 107, 0.4);
   list-style: none;
 
   color: #ffffff;
-  background-color: (255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .pagination-list:active {
@@ -417,6 +418,6 @@ background-color: (239, 107, 107, 0.4);
 }
 
 .btn-quick a: {
-background-color: (248, 247, 244, 0.2) ;
-shadow: #a45454 20px 0px 20px 0.4;
+background-color: #ec593c;
+box-shadow: 1px 0 1px rgba(172, 16, 0);
 }
