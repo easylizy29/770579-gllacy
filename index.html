@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -84,7 +84,7 @@
           </li>
         </ul>
         <ul class="slider-pagination">
-          <li button class="slide-btn">>Первый слайд</button>
+          <li><button class="slide-btn">Первый слайд</button>
           </li>
           <li><button class="slide-btn">Второй слайд</button></li>
           <li><button class="slide-btn">Третий слайд</button></li>
@@ -118,8 +118,8 @@
           </h3>
             <p class="catalog-item-price">310
               <span class="weight">/кг</span></p>
-            <a class="catalog-item-title">Сливочное с апельсиновым джемом
-          и цитрусовой стружкой</a>
+            <a class="catalog-item-title" href="#">Сливочное с апельсиновым джемом <br>
+          и цитрусовой стружкой</a> <br>
             <a class="btn btn-quick" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
@@ -133,8 +133,8 @@
           </h3>
             <p class="catalog-item-price">380
               <span class="weight">/кг</span></p>
-            <a class="catalog-item-title">Сливочно-кофейное с
-          кусочками шоколада</a>
+            <a class="catalog-item-title" href="#">Сливочно-кофейное с
+          кусочками <br> шоколада</a> <br>
             <a class="btn btn-quick" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
@@ -148,8 +148,8 @@
           </h3>
             <p class="catalog-item-price">355
               <span class="weight">/кг</span></p>
-            <a class="catalog-item-title">Сливочно-клубничное с
-          присыпкой из белого шоколада</a>
+            <a class="catalog-item-title" href="#">Сливочно-клубничное с <br>
+          присыпкой из белого шоколада</a> <br>
             <a class="btn btn-quick" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
@@ -164,8 +164,8 @@
           </h3>
             <p class="catalog-item-price">415
               <span class="weight">/кг</span></p>
-            <a class="catalog-item-title">Сливочное крем-брюле
-          с карамельной подливкой</a>
+            <a class="catalog-item-title" href="#">Сливочное крем-брюле
+          с <br> карамельной подливкой</a> <br>
             <a class="btn btn-quick" href="#">Быстрый просмотр</a>
           </li>
         </ul>
@@ -208,12 +208,13 @@
     <footer class="main-footer">
       <div class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
-        <p>Адрес главного офиса и офлайн-магазина:</p><br>
-        <b>ул. Большая Конюшенная
-        19/8, Санкт-Петербург</b><br>
-        <p>Для заказов по телефону:</p>
+        <p class="contacts-caption">Адрес главного офиса и офлайн-магазина:</p><br>
+        <p class="contacts-caption-2"><b>ул. Большая Конюшенная
+        19/8, Санкт-Петербург</b></p><br>
+        <p class="main-footer contacts-caption">Для заказов по телефону:</p>
         <br>
-        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a>
+        <a class="phone contacts-caption-2" href="tel:+7-812-450-25-25">
+          8 812 450-25-25</a>
         <br>
         <p class="contacts-caption"><small>(с 10 до 20 ежедневно)</small></p>
         <a class="btn btn-contacts" href="feedback.html">Форма обратной связи</a>
@@ -227,10 +228,10 @@
         </ul>
       </div>
       <ul class="footer-menu">
-        <li><a class="heart" href="#">Для поставщиков</a></li>
-        <li><a href="#">О производстве</a></li>
-        <li><a href="#">Наши документы</a></li>
-        <li><a href="#">Экологические стандарты</a></li>
+        <li><a class="footer-menu info-1" class="heart" href="#">Для поставщиков</a></li>
+        <li><a class="footer-menu info" href="#">О производстве</a></li>
+        <li><a class="footer-menu info" href="#">Наши документы</a></li>
+        <li><a class="footer-menu info" href="#">Экологические стандарты</a></li>
       </ul>
       <p class="copyright">
         Сделано в
