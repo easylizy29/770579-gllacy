@@ -112,7 +112,6 @@ a { text-decoration: underline; }
   background-color: #f7f6f3;
   color: #ffffff;
   text-decoration: none;
-  list-style: none;
 
 }
 
@@ -174,7 +173,6 @@ a { text-decoration: underline; }
 
 .blog-title {
   width: 560px;
-  height: 220px;
   font-size: 16px;
   line-height: 22px;
   color: #323232;
@@ -303,6 +301,7 @@ list-style: none;
 }
 
 .blog div {
+  min-height: 220px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -520,7 +519,7 @@ background-color: rgba(239, 107, 107, 0.8);
   background-color: rgba(239, 107, 107, 0.4);
 }
 
-.pagination-list:hover {
+.pagination-list:{
   list-style: none;
 
   color: #000000;
