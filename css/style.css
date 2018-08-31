@@ -80,17 +80,28 @@ a { text-decoration: underline; }
   border: 0;
 }
 
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: underline;
+  list-style: none;
+}
+
+
 .main-navigation {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   background-color: #849d8f;
+  list-style: none;
 }
 
-.site-navigation a,
-.user-navigation a {
+.site-navigation,
+.user-navigation {
   color: #ffffff;
   text-decoration: none;
+  list-style: none;
 }
 
 
@@ -99,7 +110,10 @@ a { text-decoration: underline; }
 .user-navigation a:hover,
 .user-navigation a:focus {
   background-color: #f7f6f3;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+
 }
 
 .features-list {
@@ -426,6 +440,7 @@ background-image:url("../img/icecream-peacture-svg");
 .submenu {
   list-style: none;
   text-decoration: none;
+  color: #ffffff;
 }
 
 .submenu :hover{
