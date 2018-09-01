@@ -297,10 +297,10 @@ a { text-decoration: underline; }
 }
 
 .about-list {
-list-style: none;
+  list-style: none;
 }
 
-.blog div {
+.blog {
   min-height: 220px;
   font-size: 24px;
   line-height: 30px;
@@ -547,6 +547,12 @@ background-color: rgba(239, 107, 107, 0.8);
 
 /* Сеточные стили */
 
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
 .main-header {
   margin-bottom: 283px;
 }
@@ -562,14 +568,52 @@ background-color: rgba(239, 107, 107, 0.8);
   width: 154px;
 }
 
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .site-navigation {
   width: 685px;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .user-navigation {
   width: 267px;
   margin: 0;
   padding: 0;
+
+  list-style: none;
+}
+
+.offer {
+  margin-bottom: 35px ;
+
+}
+
+.offer-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.offer-item {
+  width: 560px;
+  height: 230px;
+}
+
+.catalog {
+  width: 1146px;
+  height: 325px;
 }
