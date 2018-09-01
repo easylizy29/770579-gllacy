@@ -617,3 +617,7 @@ background-color: rgba(239, 107, 107, 0.8);
   width: 1146px;
   height: 325px;
 }
+
+.columns {
+  padding: 30px 27px;
+}
