@@ -179,18 +179,38 @@ background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67)
 
 
 .main-navigation {
+  display: flex;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  background-color: #849d8f;
   list-style: none;
 }
+
+.site-navigation a {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.site-navigation {
+  width: 685px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
 
 .site-navigation,
 .user-navigation {
   color: #ffffff;
   text-decoration: none;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  display: flex;
 }
 
 
@@ -516,6 +536,7 @@ background-repeat: no-repeat;
   list-style: none;
   text-decoration: none;
   color: #ffffff;
+  display: none;
 }
 
 .submenu :hover{
@@ -622,3 +643,8 @@ background-color: rgba(239, 107, 107, 0.8);
 } */
 
 /* Сеточные стили */
+
+.main-header-logo {
+width: 154px;
+
+}
