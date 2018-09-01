@@ -19,14 +19,8 @@ html { box-sizing: border-box; }
 
 img { max-width: 100%; }
 
-a { text-decoration: underline; }
-
-.phone {
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: none;
+a {
+   text-decoration: underline;
 }
 
 .btn {
@@ -211,8 +205,33 @@ background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67)
   padding: 0;
   list-style: none;
   display: flex;
+  margin-left: auto;
 }
 
+.visually-hidden {
+  display: none;
+}
+
+form.form-search {
+  display: none;
+}
+
+.user-mail-form {
+  display: none;
+}
+
+p.working-hours {
+  text-align: right;
+ }
+
+.phone {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  }
 
 /* .site-navigation a:hover,
 .site-navigation a:focus,
