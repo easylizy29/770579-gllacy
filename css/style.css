@@ -544,3 +544,32 @@ background-color: rgba(239, 107, 107, 0.8);
   background-color: #ec593c;
   box-shadow: 1px 0 1px rgba(172, 16, 0);
 }
+
+/* Сеточные стили */
+
+.main-header {
+  margin-bottom: 283px;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header-logo {
+  order: 2;
+  width: 154px;
+}
+
+.site-navigation {
+  width: 685px;
+  margin: 0;
+  padding: 0;
+}
+
+.user-navigation {
+  width: 267px;
+  margin: 0;
+  padding: 0;
+}
