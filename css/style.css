@@ -302,9 +302,9 @@ p.working-hours {
 
 .offer-item {
   /* display: flex; */
+  flex-wrap: wrap;
   /* -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  flex-direction: column;
   box-sizing: border-box; */
   width: 560px;
   /* padding: 17px 19px 22px;
@@ -394,9 +394,27 @@ p.working-hours {
 
 
 .catalog-list {
-  flex-wrap: wrap;
+  /*
   -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 0 -21px; */
+  flex-wrap: wrap;
   list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.catalog-item:not(:nth-of-type(4n)) {
+  margin-right: 26px;
+}
+
+.catalog-item {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  width: 267px;
 }
 
 .catalog-item img {
@@ -424,6 +442,13 @@ p.working-hours {
   font-weight: 400;
   background-color: #ebdfc7;
   background-image: url("../img/wafer.jpg");
+  padding: 20px;
+}
+
+.about-item {
+  width: 47%;
+  padding-left: 64px;
+
 }
 
 .about-item-equipment {
@@ -451,10 +476,15 @@ p.working-hours {
   line-height: 30px;
   font-weight: 500;
   color: #323232;
+  margin: 0 0 20px;
 }
 
 .about-list {
   list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .blog {
