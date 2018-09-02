@@ -56,6 +56,8 @@ a {
   text-align: center;
   text-decoration: none;
   border: 0;
+  padding-bottom: 5px;
+  margin-bottom: auto;
 }
 
 .btn:hover,
@@ -294,7 +296,7 @@ p.working-hours {
   line-height: 41px;
   font-weight: 700;
   color: #ffffff;
-  margin: 0 0 25px;
+  margin: 0 0 5px;
 }
 .offer-text {
   font-size: 18px;
@@ -383,28 +385,27 @@ p.working-hours {
   color: #ffffff;
 }
 
+
 .catalog-list {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 0;
-  margin: 0 0 -21px;
+  margin: 0;
   list-style: none;
   display: flex;
   padding: 0;
 }
 
-
-/* .catalog-item:not(:nth-of-type(4n)) {
+.catalog-item:not(:nth-of-type(4n)) {
   margin-right: 26px;
-} */
+}
 
 .catalog-item {
   position: relative;
   -webkit-box-direction: normal;
   flex-wrap: wrap;
   width: 267px;
-  margin: 0 2px;
 }
 
 .catalog-item img {
@@ -485,18 +486,18 @@ p.working-hours {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 35px;
-
 }
 
 
-/* .search input focus,
+
+.search input focus,
 .text input focus,
 .password input focus,
 .email input focus,
 .email-for-answer input focus: {
 
   background-color: transparent;
-  border: 2px solid #9a9a9a; */
+  border: 2px solid #9a9a9a;
 }
 
 .main-footer {
