@@ -521,6 +521,24 @@ p.working-hours {
   border: 2px solid #9a9a9a; */
 }
 
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacts {
+  background: #ffffff;
+  width: 360px;
+  padding: 20px;
+  border-radius: 15px;
+  position: absolute;
+  right: 27px;
+  top: -411px;
+
+}
+
 .contacts-caption {
   font-size: 14px;
   line-height: 20px;
@@ -608,6 +626,7 @@ background-repeat: no-repeat;
   width: 1200px;
   margin: 0 auto;
   padding: 0 27px;
+  position: relative;
 }
 
 .submenu {
