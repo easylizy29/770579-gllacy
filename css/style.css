@@ -74,6 +74,7 @@ a {
   box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
   text-align: center;
   text-decoration: none;
+  padding-bottom: 5px;
   border: 0;
 }
 
@@ -90,6 +91,7 @@ a {
   box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
   text-align: center;
   text-decoration: none;
+  padding-bottom: 5px;
   border: 0;
 }
 
@@ -162,6 +164,7 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
+  padding-bottom: 5px;
 }
 
 .btn-slider:hover,
@@ -179,6 +182,7 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
+  padding-bottom: 5px;
 }
 
 .btn-slider:active {
@@ -196,6 +200,7 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
+  padding-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -309,6 +314,7 @@ p.working-hours {
   /* -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   box-sizing: border-box; */
+  padding: 20px;
   width: 560px;
   /* padding: 17px 19px 22px;
   margin-bottom: 40px; */
@@ -383,6 +389,7 @@ p.working-hours {
   line-height: 41px;
   font-weight: 700;
   color: #ffffff;
+  margin-top: auto;
 }
 
 
@@ -487,7 +494,6 @@ p.working-hours {
   justify-content: space-between;
   margin-bottom: 35px;
 }
-
 
 
 .search input focus,
