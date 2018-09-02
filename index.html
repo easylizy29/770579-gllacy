@@ -69,17 +69,18 @@
       <h2 class="review-name">Мы обязательно вам ответим!</h2>
       <form class="name-form" action="http://echo.htmlacademy.ru" method="post">
         <div class="field-wrapper">
-          <label for="name">Как вас зовут?</label>
-          <input type="text" name="name" id="name" required>
+          <label for="name"></label>
+          <input class="input-1" type="text" name="name" id="name" placeholder="Как вас зовут?" required>
         </div>
         <div class="field-wrapper">
-          <label for="email-for-answer">Ваша почта для ответа?</label>
-          <input type="email-for-answer" name="email-for-answer" id="answer" required>
+          <label for="email-for-answer"></label>
+          <input class="input-2" type="email" name="email-for-answer" id="answer" placeholder="Ваша почта для ответа?" required>
         </div>
         <div class="field-wrapper">
-          <label for="write-something">Напишите что-нибудь...</label>
-          <textarea type="write" name="write" id="write-something" required>
-          </textarea>
+          <label for="write-something"></label>
+          <input class="input-3" type="text" name="write-something" id="answer" placeholder="Напишите что-нибудь..." required>
+          <!-- <textarea type="text" name="write" id="write-something" required>
+          </textarea> -->
         </div>
         <button class="btn-subscribe" type="submit">Отправить</button>
       </form>
