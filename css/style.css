@@ -88,8 +88,13 @@ background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67)
 }
 
 .slider-tittle {
-    font-size: 60px;
-    line-height: 60px;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 400px 0 10px 0;
+  padding-left: 10px 10px ;
+  text-align: center;
+
+
 }
 
 .slider-item {
@@ -97,7 +102,7 @@ background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67)
 }
 
 .slider-item-1 {
- background-image: url("../img/slider-bg1.png");
+   background-image: url("../img/slider-bg1.png");
 }
 
 .slider-item-2 {
@@ -262,6 +267,8 @@ p.working-hours {
  }
 
 .phone {
+    flex-direction: column;
+  padding-left: 25px;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -623,15 +630,12 @@ text-decoration: none;
   color: #000;
   padding: 20px;
   border-radius: 15px;
-  margin: ;
+  margin: 0;
 }
-
 
 .textarea {
   overflow:auto;
-
 }
-
 
 .info-1 {
   font-size: 13px;
