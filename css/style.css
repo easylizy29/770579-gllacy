@@ -322,12 +322,21 @@ p.working-hours {
   background-image: url("../img/chocolate-background.jpg");
 }
 
+.blog {
+  min-height: 220px;
+  color: #323232;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 560px;
+  background: url(../img/strawberry-background.jpg);
+  border-radius: 15px;
+}
+
 .blog-link {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   color: #323232;
-  text-decoration: underline;
 }
 
 .blog-title {
@@ -336,11 +345,17 @@ p.working-hours {
   color: #323232;
 }
 
+.subscribe {
+  width: 560px;
+  padding: 20px;
+  background: #f8f7f4;
+  border-radius: 15px;
+}
+
 .subscribe-text {
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
-  background-color: #f8f7f4;
 }
 
 .field-caption {
@@ -441,6 +456,7 @@ p.working-hours {
   background-image: url("../img/wafer.jpg");
   padding: 20px;
   border-radius: 15px;
+  margin-bottom: 25px;
 
 }
 
@@ -495,48 +511,14 @@ p.working-hours {
 }
 
 
-.blog {
-  min-height: 220px;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #323232;
-  text-decoration: underline;
-  background-color: #ffffff;
-  padding: 20px;
-  width: 560px;
-  background: url(../img/strawberry-background.jpg);
-  border-radius: 15px;
-}
-
-/* .blog2 {
-  font-size: 16px;
-  line-height: 22px;
-  color: #5a5a5a;
-}
-
-
-
-.search input hover,
-.text input hover,
-.password input hover,
-.email input hover,
-.email-for-answer input hover: {
-  font: inherit; */
-
-  background-color: transparent;
-  border: 1px solid #b2b2b2;
-  /* не уверена в толщине рамки */
-}
-
-.search input focus,
+/* .search input focus,
 .text input focus,
 .password input focus,
 .email input focus,
 .email-for-answer input focus: {
 
   background-color: transparent;
-  border: 2px solid #9a9a9a;
+  border: 2px solid #9a9a9a; */
 }
 
 .contacts-caption {
