@@ -96,6 +96,10 @@ a {
   border: 0;
 }
 
+.btn-subscribe {
+  margin-bottom: 5px;
+}
+
 .slider {
   box-sizing: border-box;
   width: 1200px;
@@ -165,7 +169,8 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
-  padding-bottom: 5px;
+  position: absolute;
+  margin: 10px 10px 10px 400px;
 }
 
 .btn-slider:hover,
@@ -183,7 +188,6 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
-  padding-bottom: 5px;
 }
 
 .btn-slider:active {
@@ -201,7 +205,6 @@ ul.slider-pagination {
   text-align: center;
   text-decoration: none;
   border: 0;
-  padding-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -609,12 +612,15 @@ text-decoration: none;
 }
 
 .feedback {
+text-align: center;
   background: #ffffff;
-  width:500px;
+  min-height: :445px;
+  width: 445px;
   color: #000;
   padding: 20px;
   border-radius: 15px;
-  margin: 0;
+  margin: auto;
+  vertical-align: middle;
 }
 
 .textarea {
