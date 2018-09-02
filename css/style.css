@@ -331,12 +331,9 @@ p.working-hours {
 }
 
 .blog-title {
-  width: 560px;
   font-size: 16px;
   line-height: 22px;
   color: #323232;
-  background-color: #ffffff;
-  background-image: url("../img/strawberry-background.jpg");
 }
 
 .subscribe-text {
@@ -394,12 +391,12 @@ p.working-hours {
 
 
 .catalog-list {
-  /*
+
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 0;
-  margin: 0 0 -21px; */
-  flex-wrap: wrap;
+  margin: 0 0 -21px;
   list-style: none;
   display: flex;
   padding: 0;
@@ -443,11 +440,14 @@ p.working-hours {
   background-color: #ebdfc7;
   background-image: url("../img/wafer.jpg");
   padding: 20px;
+  border-radius: 15px;
+
 }
 
 .about-item {
   width: 47%;
   padding-left: 64px;
+  margin-bottom: 20px;
 
 }
 
@@ -487,6 +487,14 @@ p.working-hours {
   justify-content: space-between;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
 .blog {
   min-height: 220px;
   font-size: 24px;
@@ -494,22 +502,27 @@ p.working-hours {
   font-weight: 700;
   color: #323232;
   text-decoration: underline;
-
   background-color: #ffffff;
+  padding: 20px;
+  width: 560px;
+  background: url(../img/strawberry-background.jpg);
+  border-radius: 15px;
 }
 
-.blog2 {
+/* .blog2 {
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
 }
+
+
 
 .search input hover,
 .text input hover,
 .password input hover,
 .email input hover,
 .email-for-answer input hover: {
-  font: inherit;
+  font: inherit; */
 
   background-color: transparent;
   border: 1px solid #b2b2b2;
