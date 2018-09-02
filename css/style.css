@@ -612,10 +612,10 @@ text-decoration: none;
 }
 
 .feedback {
-text-align: center;
-  background: #ffffff;
-  min-height: :445px;
-  width: 445px;
+  text-align: center;
+  background: #f8f7f4;
+  min-height: 443px;
+  width: 480px;
   color: #000;
   padding: 20px;
   border-radius: 15px;
@@ -628,43 +628,49 @@ label {
   margin-bottom: 5px;
 }
 
+.review-name {
+  margin-left: -95px;
+}
+
 .input-1 {
-  width: 95%;
+  width: 267px;
   height: 43px;
-  margin-bottom: 10px;
+  margin-left: -175px;
+  margin-bottom: 20px;
   padding: 2px 5px;
 
   font-family: "Roboto", sans-serif;
-  vertical-align: middle;
-
   border: 1px solid #cccccc;
   border-radius: 5px;
 }
 
 .input-2 {
-  width: 95%;
+  width: 267px;
   height: 43px;
-  margin-bottom: 10px;
+  margin-left: -175px;
+  margin-bottom: 20px;
   padding: 2px 5px;
 
   font-family: "Roboto", sans-serif;
-  vertical-align: left;
+  left: auto;
 
   border: 1px solid #cccccc;
   border-radius: 5px;
 }
 
 .input-3 {
-  width: 95%;
-  height: 10px;
+  width: 430px;
+  height: 155px;
+  margin-left: -15px;
   margin-bottom: 10px;
   padding: 2px 5px;
-
   font-family: "Roboto", sans-serif;
-  vertical-align: middle;
-
   border: 1px solid #cccccc;
   border-radius: 5px;
+}
+
+.send-btn {
+margin: 10px 0 0 300px;
 }
 
 .textarea {
