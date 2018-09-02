@@ -20,6 +20,7 @@ a {
    text-decoration: underline;
 }
 
+
 .hide-link{
     display: block;
     color: white;
@@ -393,6 +394,10 @@ p.working-hours {
 }
 
 
+.catalog {
+margin-bottom: 10px;
+}
+
 .catalog-list {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -401,7 +406,7 @@ p.working-hours {
   margin: 0;
   list-style: none;
   display: flex;
-  padding: 0;
+  margin-bottom: 10px;
 }
 
 .catalog-item:not(:nth-of-type(4n)) {
@@ -413,6 +418,7 @@ p.working-hours {
   -webkit-box-direction: normal;
   flex-wrap: wrap;
   width: 267px;
+  margin-bottom: 10px;
 }
 
 .catalog-item img {
@@ -426,9 +432,10 @@ p.working-hours {
   color: #ffffff;
 }
 
+
 .catalog-item-price {
   font-size: 45px;
-  line-height: 45px;
+  line-height: 5px;
   font-weight: 700;
   background-color: 1px 0 3px rgba(49, 50, 53, 0.50);
 }
@@ -521,7 +528,6 @@ p.working-hours {
   position: absolute;
   right: 27px;
   top: -411px;
-
 }
 
 .contacts-caption {
