@@ -260,10 +260,6 @@ ul.slider-pagination {
   display: none;
 }
 
-form.form-search {
-  display: none;
-}
-
 p.working-hours {
   text-align: right;
  }
@@ -613,24 +609,11 @@ text-decoration: none;
   text-align: center;
   background: #f8f7f4;
   width: 345px;
-  min-height: 10px;
+  min-height: 82px;
   color: #000;
   padding: 0px;
-  border-radius: 15px;
-  vertical-align: middle;
-}
-
-.input-0 {
-  width: 267px;
-  height: 43px;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding: 2px 5px;
-
-  font-family: "Roboto", sans-serif;
-  border: 1px solid #cccccc;
   border-radius: 5px;
-
+  vertical-align: middle;
 }
 
 .feedback {
@@ -797,9 +780,12 @@ background-repeat: no-repeat;
 }
 
 .user-search input[type="search"] {
-  font: inherit;
+  margin-top: 15px;
+  font: left;
   color: #999999;
   text-transform: none;
+  width: 310px;
+  height: 45px;
 
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
@@ -808,22 +794,36 @@ background-repeat: no-repeat;
 
 .user-login input[type="text"],
 .user-login input[type="password"] {
-  font: inherit;
+
+  margin: 0 15px 0 15px; 
+  font: left;
   color: #999999;
-  text-transform: uppercase;
+  text-transform: none;
+  width: 241px;
+  height: 45px;
 
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
+
+  font: inherit;
+  /* color: #999999;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #d3d3d2; */
 }
 
 .login-links {
   font-size: 14px;
   line-height: 24px;
+  width: 280px;
+  min-height: 215px;
   font: inherit;
   color: #999999;
   text-transform: uppercase;
+  border-radius: 15px;
 
-  background-color: #ffffff;
+  background-color: #f8f7f4;
   border: 1px solid #d3d3d2;
 }
 

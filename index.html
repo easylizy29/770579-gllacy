@@ -34,27 +34,27 @@
           <li class="user-search"><a>Поиск</a>
             <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
               <div class="field-wrapper">
-                <input class="input-0" type="search" name="search" id="search-field" placeholder="Что ищем?" required>
+                <input class="input" type="search" name="search" id="search-field" placeholder="Что ищем?" required>
                 <label for="search-field"></label>
               </div>
             </form>
           </li>
           <li class="user-login">
-            <a>Вход</a>
-            <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
-              <div class="field-wrapper">
-                <label for="user-mail">Электронная почта</label>
-                <input class="input" type="text" name="login" id="user-mail" required>
-              </div>
-              <div class="field-wrapper">
-                <label for="password-field">Пароль</label>
-                <input class="input" type="password" name="password" id="password-field" required>
-              </div>
-              <button class="btn-entrance" type="submit">Войти</button>
-              <div class="login-links">
-              </div>
-              <a class="forgot-password" href="#">Забыли пароль</a>
-              <a class="new-name" href="#">Новая регистрация</a>
+            <div class="login-links">
+              <a>Вход</a>
+              <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
+                <div class="field-wrapper">
+                  <label for="user-mail"></label>
+                  <input class="input" type="text" name="login" id="user-mail" placeholder="Электронная почта" required>
+                </div>
+                <div class="field-wrapper">
+                  <label for="password-field"></label>
+                  <input class="input" type="password" name="password" id="password-field" placeholder="Пароль" required>
+                </div>
+                <button class="btn-entrance" type="submit">Войти</button>
+            </div>
+            <a class="forgot-password" href="#">Забыли пароль</a>
+            <a class="new-name" href="#">Новая регистрация</a>
             </form>
           </li>
           <li class="basket-link-empty"><a>Пусто</a>
