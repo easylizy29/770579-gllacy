@@ -18,8 +18,8 @@
         alt="Логотип-магазина-Глейси">
         </a>
         <ul class="site-navigation">
-          <li><a href="inner.html">Каталог</a>
-            <ul class="submenu">
+          <li><a href="#catalog">Каталог</a>
+            <ul class="sub-menu">
               <li><a href="#" class="hide-link">Новинки</a></li>
               <li><a href="#" class="hide-link">Сливочное</a></li>
               <li><a href="#" class="hide-link">Щербеты</a></li>
@@ -51,19 +51,21 @@
                   <label for="password-field"></label>
                   <input class="input" type="password" name="password" id="password-field" placeholder="Пароль" required>
                 </div>
-                <button class="btn-entrance" type="submit">Войти</button>
+                <button class="btn btn-entrance" type="submit">Войти</button>
+                <a class="forgot-password" href="#">Забыли пароль</a>
+                <a class="new-name" href="#">Новая регистрация</a>
+              </form>
             </div>
-            <a class="forgot-password" href="#">Забыли пароль</a>
-            <a class="new-name" href="#">Новая регистрация</a>
-            </form>
           </li>
           <li class="basket-link-empty"><a>Пусто</a>
           </li>
         </ul>
-        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a>
+        <div class="header-contacts">
+          <p class="working-hours">
+            C 10 до 20, ежедневно</p>
+          <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a>
+        </div>
       </nav>
-      <p class="working-hours">
-        C 10 до 20, ежедневно</p>
     </header>
     <section class="feedback">
       <h2 class="review-name">Мы обязательно вам ответим!</h2>
@@ -82,7 +84,7 @@
           <!-- <textarea type="text" name="write" id="write-something" required>
           </textarea> -->
         </div>
-        <button class="btn-subscribe send-btn" type="submit">Отправить</button>
+        <button class="btn btn-subscribe send-btn" type="submit">Отправить</button>
       </form>
     </section>
     <main class="index-main">
