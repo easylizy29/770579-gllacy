@@ -598,6 +598,11 @@ text-decoration: none;
   padding: 0px;
   border-radius: 5px;
   vertical-align: middle;
+  display: none;
+}
+
+.basket-link-empty {
+  display: none;
 }
 
 .feedback {
@@ -751,7 +756,7 @@ background-repeat: no-repeat;
 
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
-
+  display: none;
 }
 
 .user-login input[type="text"],
@@ -766,8 +771,8 @@ background-repeat: no-repeat;
 
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
-
   font: inherit;
+  display: none;
   /* color: #999999;
   text-transform: uppercase;
 
