@@ -13,12 +13,12 @@
   <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="main-header-logo href=" index.html "">
         <img src="img/logo.svg" width="154" height="64"
         alt="Логотип-магазина-Глейси">
         </a>
         <ul class="site-navigation">
-          <li><a href="#catalog">Каталог</a>
+          <li><a class="magazine-1" href="#catalog">Каталог</a>
             <ul class="sub-menu">
               <li><a href="#" class="hide-link">Новинки</a></li>
               <li><a href="#" class="hide-link">Сливочное</a></li>
@@ -27,8 +27,8 @@
               <li><a href="#" class="hide-link">Мелорин</a></li>
             </ul>
           </li>
-          <li><a href="delivery-and-price.html">Доставка и оплата</a></li>
-          <li><a href="company.html">О компании</a></li>
+          <li><a class="delivery" href="delivery-and-price.html">Доставка и оплата</a></li>
+          <li><a class="company" href="company.html">О компании</a></li>
         </ul>
         <ul class="user-navigation">
           <li class="user-search"><a>Поиск</a>
@@ -40,54 +40,52 @@
             </form>
           </li>
           <li class="user-login">
-            <div class="login-links">
-              <a>Вход</a>
-              <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
-                <div class="field-wrapper">
-                  <label for="user-mail"></label>
-                  <input class="input" type="text" name="login" id="user-mail" placeholder="Электронная почта" required>
-                </div>
-                <div class="field-wrapper">
-                  <label for="password-field"></label>
-                  <input class="input" type="password" name="password" id="password-field" placeholder="Пароль" required>
-                </div>
-                <button class="btn btn-entrance" type="submit">Войти</button>
+            <a>Вход</a>
+            <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
+              <div class="field-wrapper">
+                <label for="user-mail"></label>
+                <input class="input" type="text" name="login" id="user-mail" placeholder="Электронная почта" required>
+              </div>
+              <div class="field-wrapper">
+                <label for="password-field"></label>
+                <input class="input" type="password" name="password" id="password-field" placeholder="Пароль" required>
+              </div>
+              <button class="btn btn-entrance" type="submit">Войти</button>
+              <div class="login-links">
                 <a class="forgot-password" href="#">Забыли пароль</a>
                 <a class="new-name" href="#">Новая регистрация</a>
-              </form>
-            </div>
+              </div>
+            </form>
           </li>
-          <li class="basket-link"><button class="bascet">Корзина</button>
-            <table>
-              <tr>
-                <td><a class="cart-link-remove"></a></td>
-                <td class="orange"></td>
-                <td> Пломбир с апельсиновым джемом </td>
-                <td>1.5кг Х <span class="light">200 руб.</span></td>
-                <td>300 руб.</td>
-              </tr>
-              <tr>
-                <td><a class="cart-link-remove"></a></td>
-                <td class="strawberry"></td>
-                <td>Клубничный пломбир с присыпкой из белого шоколада</td>
-                <td>1.5кг Х <span class="light">300 руб.</span></td>
-                <td>450 руб.</td>
-              </tr>
-              <tr>
-                <td class="result" colspan="5">Итого: 750 руб.</td>
-              </tr>
-            </table>
-            <button class="btn make-order">Оформить заказ</button>
-          </li>
-          <li class="basket-link-empty"><a>Пусто</a>
+          <li class="basket-link"><a class="bascet" href="#">Корзина</a>
+            <form class="search-form">
+              <table>
+                <tr>
+                  <td><a class="cart-link-remove"></a></td>
+                  <td class="orange"></td>
+                  <td> Пломбир с апельсиновым джемом </td>
+                  <td>1.5кг Х <span class="light">200 руб.</span></td>
+                  <td>300 руб.</td>
+                </tr>
+                <tr>
+                  <td><a class="cart-link-remove"></a></td>
+                  <td class="strawberry"></td>
+                  <td>Клубничный пломбир с присыпкой из белого шоколада</td>
+                  <td>1.5кг Х <span class="light">300 руб.</span></td>
+                  <td>450 руб.</td>
+                </tr>
+                <tr>
+                  <td class="result" colspan="5">Итого: 750 руб.</td>
+                </tr>
+              </table>
+              <button class="btn make-order">Оформить заказ</button>
+            </form>
           </li>
         </ul>
       </nav>
-      <div class="header-contacts">
-        <p class="working-hours">
-          C 10 до 20, ежедневно</p>
-        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a>
-      </div>
+      <p class="working-hours">
+        C 10 до 20, ежедневно
+        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></p>
     </header>
     <button class="btn make-order">Оформить заказ</button>
     </li>
@@ -96,18 +94,18 @@
     </header>
     <main>
       <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a>
+        <li><a class="home" href="index.html">Главная</a>
           <li>
-            <a href="#">Каталог</a>
+            <a class="magazine-2" href="#">Каталог</a>
           </li>
           <li>
-            <p>Сливочное</p>
+            <a class="creamy">Сливочное</a>
           </li>
       </ul>
       <h1 class="page-title">Сливочное мороженое</h1>
       <!-- <section>Здесь будет форма</section> -->
       <section class="catalog-filter">
-        <h2 class="visual-hidden">Фильтр товаров</h2>
+        <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="catalog-filter-form" action="http://echo.htmlacademy.ru" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Сортировка</button>
@@ -151,7 +149,7 @@
           <button type="submit" class="btn btn-apply">Применить</button>
         </form>
         <section class="catalog">
-          <h2 class="visual-hidden">Католог мороженого</h2>
+          <h2 class="visually-hidden">Католог мороженого</h2>
           <ul class="catalog-list">
             <li class="catalog-item">
               <h3>
@@ -355,11 +353,11 @@
         <div class="pagination">
           <ul class="pagination-list">
             <li class="arrow arrow-prev"><a>Назад</a></li>
-            <li class="active"><a>1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
+            <li class="active-one"><a>1</a></li>
+            <li><a class="two" href="#">2</a></li>
+            <li><a class="three" href="#">3</a></li>
+            <li><a class="four" href="#">4</a></li>
+            <li><a class="five" href="#">5</a></li>
             <li class="arrow arrow-next"><a href="#">Вперед</a></li>
           </ul>
         </div>
@@ -374,16 +372,18 @@
         </ul>
       </div>
       <ul class="footer-menu">
-        <li><a class="heart" href="#">Для поставщиков</a></li>
-        <li><a href="#">О производстве</a></li>
-        <li><a href="#">Наши документы</a></li>
-        <li><a href="#">Экологические стандарты</a></li>
+        <li><a class="footer-menu info-1" class="heart" href="#">Для поставщиков</a></li>
+        <li><a class="footer-menu info" href="#">О производстве</a></li>
+        <li><a class="footer-menu info" href="#">Наши документы</a></li>
+        <li><a class="footer-menu info" href="#">Экологические стандарты</a></li>
       </ul>
       <p class="copyright">
         Сделано в
-        <a class="copyright-link" href="https://htmlacademy.ru"></li>
-          HTML Academy
-        </a> © 2017
+        <a class="copyright-link" href="https://htmlacademy.ru">
+        HTML Academy
+      </a> © 2017
+        <img src="img/logo-htmlacademy.svg" width="154" height="64" alt="Логотип-магазина-Глейси">
+        </a>
       </p>
     </footer>
   </div>
