@@ -18,6 +18,7 @@ img { max-width: 100%; }
 
 a {
    text-decoration: underline;
+   color: #ffffff;
 }
 
 .btn {
@@ -96,7 +97,7 @@ ul.slider-pagination {
 }
 
 .offer {
-  margin-bottom: 35px;
+  margin-bottom: -60px;
 }
 
 .offer-list {
@@ -226,7 +227,9 @@ ul.slider-pagination {
   list-style: none;
   display: flex;
   margin-left: auto;
-  display: ?;
+  display: flex;
+  color: #ffffff;
+  padding-top: 20px;
 }
 
 .visually-hidden {
@@ -238,7 +241,7 @@ p.working-hours {
 
   position: absolute;
   right: -80px;
-  top: 10px;
+  top: 30px;
   margin-left: auto;
   text-align: right;
  }
@@ -380,7 +383,6 @@ margin-bottom: 10px;
   margin: 0;
   list-style: none;
   display: flex;
-  margin-bottom: 10px;
 }
 
 .catalog-item:not(:nth-of-type(4n)) {
@@ -392,20 +394,27 @@ margin-bottom: 10px;
   -webkit-box-direction: normal;
   flex-wrap: wrap;
   width: 267px;
-  margin-bottom: 10px;
+
 }
 
 .catalog-item img {
   border-radius: 50%;
 }
 
+.hit {
+  position: relative;
+  bottom: -85px;
+}
+
 .catalog-item-title {
+  position: relative;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
+  top: -88px;
+  left: 30px;
 }
-
 
 .catalog-item-price {
   font-size: 45px;
@@ -414,6 +423,8 @@ margin-bottom: 10px;
   background-color: 1px 0 3px rgba(49, 50, 53, 0.50);
   position: relative;
   padding-left: 0;
+  left: 3px;
+  top: -100px;
 }
 
 .catalog-filter-form {
@@ -422,6 +433,7 @@ margin-bottom: 10px;
 }
 
 .about {
+  position: relative;
   color: #323232;
   font-size: 16px;
   line-height: 22px;
@@ -431,6 +443,7 @@ margin-bottom: 10px;
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 25px;
+  top: -60px;
 }
 
 .about-item {
@@ -477,10 +490,12 @@ margin-bottom: 10px;
 }
 
 .wrapper {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 35px;
+  top: -55px;
 }
 
 
@@ -729,12 +744,14 @@ margin: 10px 0 0 5px;
 }
 
 .map {
+  position: relative;
 width: 100%;
 height: 430px;
 background-color: #849d8f;
 background-image:url("../img/map.jpg");
 background-position: center;
 background-repeat: no-repeat;
+top: -60px;
 }
 
 .container {
@@ -742,8 +759,12 @@ background-repeat: no-repeat;
   margin: 0 auto;
   padding: 0 27px;
   position: relative;
+  top: -25px;
 }
 .btn-quick {
+  position: relative;
+  right: -30px;
+  top: -65px;
 }
 
 .user-search input[type="search"] {
@@ -772,7 +793,6 @@ background-repeat: no-repeat;
   background-color: #ffffff;
   border: 1px solid #d3d3d2;
   font: inherit;
-  display: none;
   /* color: #999999;
   text-transform: uppercase;
 
@@ -789,7 +809,7 @@ background-repeat: no-repeat;
   color: #999999;
   text-transform: uppercase;
   border-radius: 15px;
-
+  display: none;
   background-color: #f8f7f4;
   border: 1px solid #d3d3d2;
 }
@@ -799,6 +819,10 @@ border-color: 2px solid #9a9a9a;
 }
 .user-login input:focus {
 border-color: 2px solid #2e88e4;
+}
+
+.user-mail-form {
+display: none;
 }
 
 .filter-checkbox-group {
