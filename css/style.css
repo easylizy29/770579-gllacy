@@ -62,7 +62,6 @@ a {
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
-  padding: 0 27px;
   text-align: center;
   color: #ffffff;
   padding-top: 110px;
@@ -73,6 +72,8 @@ a {
   margin: 0;
   padding: 0;
   margin-bottom: 260px;
+  left: -20px;
+  position: relative;
 }
 
 .slider-title {
@@ -95,7 +96,7 @@ a {
   background-position: top center;
 
   min-height: 100vh;
-  transition: background-image 0.5s ease, background-color 0.5s ease;
+  transition: background-image 0.08s ease, background-color 0.08s ease;
 }
 
 .site-wrapper::before,
@@ -146,7 +147,7 @@ ul.slider-pagination {
   border: 0;
   position: relative;
   top: 230px;
-  cursor: pointer;
+  left: 0;
 }
 
 .btn-slider:hover,
@@ -254,7 +255,7 @@ ul.slider-pagination {
   color: #ffffff;
   list-style: none;
   position: relative;
-  top: 30px;
+  top: 10px;
 }
 
 
@@ -320,7 +321,7 @@ p.working-hours {
   top: 6px;
   margin-left: auto;
   text-align: right;
-  top: -10px;
+  top: -22px;
  }
 
 .phone {
@@ -412,10 +413,15 @@ p.working-hours {
 }
 
 .subscribe {
-  width: 560px;
   padding: 20px;
-  background: #f8f7f4;
   border-radius: 15px;
+  border: 10px solid;
+  border-image-source: url("../img/bg-post.svg");
+  border-image-slice: 10;
+  border-image: 10px;
+  width: 560px;
+  min-height: 220px;
+  background: #f8f7f4;
 }
 
 .subscribe-text {
@@ -644,10 +650,26 @@ text-decoration: none;
   vertical-align: middle;
   width: 40px;
   height: 40px;
-  border:  rgba (255, 255, 255, 0.5);
-  background-color: (255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  margin: 0 2px;
 
+  border-image-slice: 10;
+  border-image: 5px;
 }
+
+.social-link:hover,
+.social-link:focus {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-link:active {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 
 .social-link-tw  {
   background-image: url("../img/tw.svg");
@@ -778,10 +800,7 @@ margin: 10px 0 0 5px;
 }
 
 .forgot-password {
-
 }
-
-
 
 .btn-entrance {
   display: inline-block;
@@ -800,12 +819,19 @@ margin: 10px 0 0 5px;
   padding-bottom: 5px;
 }
 
+.heart {
+  position: relative;
+  left: -20px;
+  background-image:url("../img/heart.svg");
+  background-repeat: no-repeat;
+}
+
 .info-1 {
-  font-size: 13px;
-  line-height: 18px;
-  font-weight: 700;
+  position: relative;
+  left: 20px;
   text-decoration: underline;
   color: #ffffff;
+  font-weight: 700;
 }
 
 .info {
@@ -838,7 +864,7 @@ margin: 10px 0 0 5px;
   padding: 0 27px;
   position: relative;
   top: 0;
-
+  background-position: top center;
 }
 
 .btn-quick {
