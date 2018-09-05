@@ -415,10 +415,10 @@ p.working-hours {
 .subscribe {
   padding: 20px;
   border-radius: 15px;
-  border: 10px solid;
+  border: 7px solid;
   border-image-source: url("../img/bg-post.svg");
-  border-image-slice: 10;
-  border-image: 10px;
+  border-image-slice: 7;
+  border-image: 7px;
   width: 560px;
   min-height: 220px;
   background: #f8f7f4;
@@ -428,6 +428,12 @@ p.working-hours {
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
+}
+
+
+.field-caption {
+  position: relative;
+  width: 300px
 }
 
 .btn-subscribe {
@@ -489,14 +495,19 @@ margin-bottom: 10px;
   bottom: -85px;
 }
 
+.ruble {
+  position: relative;
+  top: 10px;
+}
+
 .catalog-item-title {
   position: relative;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
-  top: -88px;
-  left: 30px;
+  top: -125px;
+  left: 25px;
 }
 
 .catalog-item-price {
@@ -505,9 +516,10 @@ margin-bottom: 10px;
   font-weight: 700;
   background-color: 1px 0 3px rgba(49, 50, 53, 0.50);
   position: relative;
-  padding-left: 0;
-  left: 3px;
-  top: -100px;
+  padding-left: -0px;
+  left: 8px;
+  top: -120px;
+  padding-bottom: -10px;
 }
 
 .catalog-filter-form {
@@ -527,6 +539,7 @@ margin-bottom: 10px;
   border-radius: 15px;
   margin-bottom: 25px;
   top: -60px;
+  margin-top: -30px;
 }
 
 .about-item {
@@ -600,13 +613,22 @@ margin-bottom: 10px;
 }
 
 .contacts {
+  text-align: left;
   background: #ffffff;
-  width: 360px;
+  width: 305px;
   padding: 20px;
   border-radius: 15px;
   position: absolute;
-  right: 27px;
-  top: -411px;
+  right: 50px;
+   top: 2025px;
+}
+
+.pin {
+  background-image: url("../img/pin.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 422px;
+  left: 238px;
 }
 
 .contacts-caption {
@@ -650,8 +672,8 @@ text-decoration: none;
   vertical-align: middle;
   width: 40px;
   height: 40px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  background-color: rgba(255, 255, 255, 0.80);
   border-radius: 50%;
   margin: 0 2px;
 
@@ -847,6 +869,11 @@ margin: 10px 0 0 5px;
   background-color: #849d8f;
 }
 
+input[type="email"] {
+  width: 370px;
+  min-height: 45px;
+}
+
 .map {
   position: relative;
   width: 100%;
@@ -856,6 +883,7 @@ margin: 10px 0 0 5px;
   background-position: center;
   background-repeat: no-repeat;
   top: -60px;
+  margin-bottom: -25px;
 }
 
 .container {
@@ -871,6 +899,11 @@ margin: 10px 0 0 5px;
   position: relative;
   right: -30px;
   top: -65px;
+}
+
+.user-search {
+
+
 }
 
 .user-search input[type="search"] {
