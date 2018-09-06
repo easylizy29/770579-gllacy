@@ -452,6 +452,26 @@ p.working-hours {
   border: 0;
 }
 
+.btn-subscribe-1 {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  position: relative;
+  right: -380px;
+  top: -50px;
+}
+
+
 .offer-text {
   font-size: 18px;
   line-height: 41px;
@@ -459,7 +479,6 @@ p.working-hours {
   color: #ffffff;
   margin-top: auto;
 }
-
 
 .catalog {
 margin-bottom: 10px;
@@ -872,6 +891,24 @@ margin: 10px 0 0 5px;
 input[type="email"] {
   width: 370px;
   min-height: 45px;
+  color: #999999;
+  border: 0.5px solid #b2b2b2;
+  border-radius: 5px;
+}
+
+input[type="email"]:hover {
+  border: 2px solid #9a9a9a;
+}
+
+input[type="email"]:focus {
+  border: 2px solid #2e88e4;
+  
+}
+
+input[type="email"]:active {
+  border: 0.5px solid #b2b2b2;
+  font-weight: 700;
+  color: #323232;
 }
 
 .map {
