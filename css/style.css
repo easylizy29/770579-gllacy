@@ -902,7 +902,7 @@ input[type="email"]:hover {
 
 input[type="email"]:focus {
   border: 2px solid #2e88e4;
-  
+
 }
 
 input[type="email"]:active {
@@ -1008,13 +1008,22 @@ display: none;
 }
 
 
-.filter-checkbox-group,
+.filter-checkbox-group:focus,
+.filter-checkbox-group:active,
 .filter-checkbox:checked {
 background-color: (239, 107, 107, 0.8);
+background-image: url("../img/checkbox-on.svg");
+background-repeat: repeat-y;
 }
+
 
 .filter-checkbox-group:disabled  {
 background-color: rgba(239, 107, 107, 0.4);
+}
+
+.checkbox  {
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
 }
 
 .filter-radio,
