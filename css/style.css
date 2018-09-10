@@ -14,7 +14,9 @@ html { box-sizing: border-box; }
 *::before,
 *::after { box-sizing: inherit; }
 
-img { max-width: 100%; }
+img {
+   max-width: 100%; 
+}
 
 a {
    text-decoration: underline;
@@ -555,7 +557,6 @@ margin-bottom: 10px;
   position: absolute;
   top: 0;
   left: 28px;
-  margin-bottom: 38px;
 }
 
 .ruble {
@@ -573,10 +574,14 @@ margin-bottom: 10px;
 }
 
 .catalog-item-price {
-  font-size: 45px;
-  line-height: 5px;
-  font-weight: 700;
+  position: relative;
+  bottom: 63px;
+  z-index: 2;
   margin: 0;
+  font-size: 45px;
+  line-height: 1.2px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.9px 3px rgba(49,50,53,.5);
 }
 
 .catalog-filter-form {
