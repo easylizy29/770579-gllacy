@@ -498,11 +498,26 @@ margin-bottom: 10px;
 }
 
 .catalog-item {
-  position: relative;
   -webkit-box-direction: normal;
   flex-wrap: wrap;
   width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.catalog-item::after {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: -5px;
+  z-index: 1;
+  width: 110%;
+  min-height: 108%;
+  background-color: rgba(248,247,244,.2);
+  border-radius: 5px;
+  box-shadow: 0 20px 20px rgba(0,0,0,.4);
+  opacity: 0;
 }
 
 .catalog-item img {
@@ -520,25 +535,19 @@ margin-bottom: 10px;
 }
 
 .catalog-item-title {
-  position: relative;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
-  top: -125px;
-  left: 25px;
+  margin: 0 0 20px;
+  order: 1;
 }
 
 .catalog-item-price {
   font-size: 45px;
   line-height: 5px;
   font-weight: 700;
-  background-color: 1px 0 3px rgba(49, 50, 53, 0.50);
-  position: relative;
-  padding-left: -0px;
-  left: 8px;
-  top: -120px;
-  padding-bottom: -10px;
+  margin: 0;
 }
 
 .catalog-filter-form {
@@ -558,7 +567,7 @@ margin-bottom: 10px;
   border-radius: 15px;
   margin-bottom: 25px;
   top: -60px;
-  margin-top: -30px;
+  margin-top: 150px;
 }
 
 .about-item {
@@ -933,9 +942,7 @@ input[type="email"]:active {
 }
 
 .btn-quick {
-  position: relative;
-  right: -30px;
-  top: -65px;
+order: 2;
 }
 
 .user-search {
