@@ -15,7 +15,7 @@ html { box-sizing: border-box; }
 *::after { box-sizing: inherit; }
 
 img {
-   max-width: 100%; 
+   max-width: 100%;
 }
 
 a {
@@ -569,8 +569,17 @@ margin-bottom: 10px;
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
-  margin: 0 0 20px;
   order: 1;
+  padding: 5px  5px;
+  position: absolute;
+  bottom: 1410px;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
 }
 
 .catalog-item-price {
@@ -657,11 +666,11 @@ margin-bottom: 10px;
 }
 
 
-.search input focus,
-.text input focus,
-.password input focus,
-.email input focus,
-.email-for-answer input focus: {
+.search input:focus,
+.text input:focus,
+.password input:focus,
+.email input:focus,
+.email-for-answer input:focus: {
 
   background-color: transparent;
   border: 2px solid #9a9a9a;
