@@ -345,7 +345,6 @@ ul.slider-pagination {
 
 p.working-hours {
   text-align: right;
-
   position: relative;
   right: -80px;
   top: 6px;
@@ -442,7 +441,7 @@ p.working-hours {
 }
 
 .subscribe {
-  padding: 20px;
+  padding: 0;
   border-radius: 15px;
   border: 7px solid;
   border-image-source: url("../img/bg-post.svg");
@@ -457,12 +456,22 @@ p.working-hours {
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
+  padding: 0 0 0 20px;
+  bottom: 25px;
 }
 
+.field-wrapper-1 {
+  padding-left: 20px;
+}
 
 .field-caption {
   position: relative;
-  width: 300px
+  width: 300px;
+  bottom: 20px;
+}
+
+input {
+  padding: 2px 5px;
 }
 
 .btn-subscribe {
@@ -533,13 +542,13 @@ margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .catalog-item::after {
   content: "";
   position: absolute;
-  top: -9px;
-  left: -5px;
+
   z-index: 1;
   width: 110%;
   min-height: 108%;
@@ -570,9 +579,8 @@ margin-bottom: 10px;
   font-weight: 500;
   color: #ffffff;
   order: 1;
-  padding: 5px  5px;
+  padding: 300px  30px 0 0 ;
   position: absolute;
-  bottom: 1410px;
   margin: auto;
   flex-wrap: wrap;
   width: 267px;
@@ -583,10 +591,10 @@ margin-bottom: 10px;
 }
 
 .catalog-item-price {
-  position: relative;
-  bottom: 63px;
+  position: absolute;
   z-index: 2;
-  margin: 0;
+  padding-top: 200px;
+  margin-right: 20px;
   font-size: 45px;
   line-height: 1.2px;
   font-weight: 700;
@@ -657,21 +665,18 @@ margin-bottom: 10px;
 }
 
 .wrapper {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 35px;
-  top: -55px;
+  padding-bottom: 10px;
 }
-
 
 .search input:focus,
 .text input:focus,
 .password input:focus,
 .email input:focus,
 .email-for-answer input:focus: {
-
   background-color: transparent;
   border: 2px solid #9a9a9a;
 }
@@ -809,7 +814,7 @@ text-decoration: none;
 }
 
 .basket-link-empty {
-  display: none;
+  display: inline;
 }
 
 .feedback {
@@ -946,6 +951,7 @@ input[type="email"] {
   color: #999999;
   border: 0.5px solid #b2b2b2;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 input[type="email"]:hover {
@@ -971,8 +977,8 @@ input[type="email"]:active {
   background-image:url("../img/map.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  top: -60px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .container {
