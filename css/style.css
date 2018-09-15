@@ -566,14 +566,45 @@ margin-bottom: 10px;
 
 .hit {
   position: absolute;
-  top: 0;
-  left: 28px;
+  margin-left: 28px;
+
+  display: block;
+  background: no-repeat center center;
+  transform: translate(-50%, -50%);
+  top: 100px;
+  z-index: 30;
 }
 
 .ruble {
-  position: relative;
-  top: 10px;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 12px;
+  left: 83px;
 }
+
+.weight-1 {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 8px;
+  left: 112px;
+}
+
+.weight-0 {
+      font-family: "Roboto","Arial",sans-serif;
+      font-size: 45px;
+      line-height: 45px;
+      font-weight: 700;
+    
+      color: rgba(255,255,255,1);
+      text-shadow: 0 1px 3px rgba(49,50,53,.5);
+
+  }
 
 .catalog-item-link {
   font-size: 16px;
@@ -594,15 +625,29 @@ margin-bottom: 10px;
 
 }
 
+.catalog-item-pay {
+     font-family: "Roboto","Arial",sans-serif;
+     font-size: 45px;
+     line-height: 45px;
+     font-weight: 700;
+     position: relative;
+     color: rgba(255,255,255,1);
+     text-shadow: 0 1px 3px rgba(49,50,53,.5);
+     padding-left: 0;
+ }
+
 .catalog-item-price {
-  position: absolute;
-  z-index: 2;
-  padding-top: 200px;
-  margin-right: 20px;
-  font-size: 45px;
-  line-height: 1.2px;
-  font-weight: 700;
-  text-shadow: 0.5px 0.9px 3px rgba(49,50,53,.5);
+    position: absolute;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    bottom: 13px;
+    left: 0;
+    display: block;
+
+
+
 }
 
 .catalog-filter-form {
