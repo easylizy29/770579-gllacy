@@ -600,7 +600,7 @@ margin-bottom: 10px;
       font-size: 45px;
       line-height: 45px;
       font-weight: 700;
-    
+
       color: rgba(255,255,255,1);
       text-shadow: 0 1px 3px rgba(49,50,53,.5);
 
@@ -678,7 +678,7 @@ margin-bottom: 10px;
 }
 
 .about-item-equipment {
-  background-image:url("../img/eco.svg");
+  background-image:url("../img/ice-cream.svg");
   background-repeat: no-repeat;
 }
 
@@ -688,7 +688,7 @@ margin-bottom: 10px;
 }
 
 .about-item-purchase {
-  background-image:url("../img/ice-cream.svg");
+  background-image:url("../img/eco.svg");
   background-repeat: no-repeat;
 }
 
