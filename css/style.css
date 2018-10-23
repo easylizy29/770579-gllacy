@@ -108,8 +108,8 @@ a {
 
 .slide {
   display: none;
-  padding-top: 297px;
-  padding-bottom: 41px;
+  padding-top: 255px;
+  padding-bottom: 30px;
 }
 
 .slide-title {
@@ -394,10 +394,11 @@ p.working-hours {
   color: #ffffff;
   margin: 0 0 5px;
 }
+
 .offer-text {
   font-size: 18px;
-  line-height: 22px;
-  font-weight: 400;
+  line-height: 21px;
+  font-weight: 700;
   color: #ffffff;
   margin-top: auto;
 }
@@ -515,14 +516,6 @@ input {
   top: -50px;
 }
 
-
-.offer-text {
-  font-size: 18px;
-  line-height: 41px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: auto;
-}
 
 .catalog {
 margin-bottom: 10px;
