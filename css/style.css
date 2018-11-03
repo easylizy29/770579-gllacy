@@ -467,19 +467,40 @@ p.working-hours {
   margin-bottom: 25px;
 }
 
-.field-wrapper-1 {
+.conversation-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.conversation-form-one {
   padding-left: 20px;
 }
 
-.field-caption {
-  position: relative;
-  width: 300px;
-  bottom: 20px;
+.conversation-form-one input{
+  padding-left: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  margin: 0;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  padding: 0 14px;
+  height: 44px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
 }
 
-input {
-  padding: 2px 5px;
+.conversation-form-two {
+  align-self: baseline;
 }
+
 
 .btn-subscribe {
   display: inline-block;
@@ -497,25 +518,32 @@ input {
   border: 0;
 }
 
-.btn-subscribe-1 {
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px 20px;
-  color: #ffffff;
-  border-radius: 30px;
+.btn-subscribe-one {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #ffffff;
   background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
   box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
-  text-align: center;
-  text-decoration: none;
-  border: 0;
-  position: relative;
-  right: -380px;
-  top: -50px;
+  border-radius: 30px;
+  border: none;
+  padding: 8px 19px;
+  cursor: pointer;
+  outline: 0;
 }
 
+.btn-subscribe-one:hover {
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 1);
+  background-image: linear-gradient(to bottom, #f58669, #ec6f5e);
+}
+
+.btn-subscribe-one:active {
+  box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+}
 
 .catalog {
 margin-bottom: 10px;
@@ -715,9 +743,7 @@ margin-bottom: 10px;
 
 .search input:focus,
 .text input:focus,
-.password input:focus,
-.email input:focus,
-.email-for-answer input:focus: {
+.password input:focus  {
   background-color: transparent;
   border: 2px solid #9a9a9a;
 }
@@ -986,28 +1012,49 @@ margin: 10px 0 0 5px;
   background-color: #849d8f;
 }
 
+
+.field-caption {
+  position: relative;
+  width: 300px;
+  bottom: 20px;
+  color: #999999;
+  font-weight: 400;
+}
+
+.send-btn-email {
+  color: #323232;
+  font-weight: 400;
+}
+
 input[type="email"] {
   width: 370px;
   min-height: 45px;
-  color: #999999;
+  color: #323232;
   border: 0.5px solid #b2b2b2;
   border-radius: 5px;
   padding-left: 10px;
+
 }
+
 
 input[type="email"]:hover {
   border: 2px solid #9a9a9a;
+  color: #999999;
+  font-weight: 400;
+
 }
 
 input[type="email"]:focus {
   border: 2px solid #2e88e4;
+  color: #999999;
+  font-weight: 400;
 
 }
 
 input[type="email"]:active {
   border: 0.5px solid #b2b2b2;
-  font-weight: 700;
-  color: #323232;
+  color: #999999;
+  font-weight: 400;
 }
 
 .map {
