@@ -340,6 +340,12 @@ ul.slider-pagination {
   padding-top: 20px;
 }
 
+.user-navigation li
+{
+  margin-left: 12px;
+}
+
+
 .visually-hidden {
   display: none;
   position: absolute;
@@ -791,6 +797,7 @@ margin-bottom: 10px;
   line-height: 24px;
   font-weight: 700;
   color: #323232;
+  padding-left: 2px;
 }
 
 .footer-contacts  {
@@ -1109,9 +1116,75 @@ input[type="email"]:active {
 order: 2;
 }
 
-.user-search {
+.user-search-loupe {
+  position: relative;
+  font-size: 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+}
 
+.user-search:hover .user-search-loupe {
+  background-color: #ffffff;
+}
 
+.user-search:hover .user-search-loupe-picture::before {
+  background: url("../img/icon-find-hover.png") no-repeat
+  center center;
+}
+
+.user-search-loupe-picture::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon-find.png") no-repeat
+  center center;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
+
+.search-form input[type="search"] {
+  padding: 13px 15px;
+  width: 100%;
+  border: 1px solid #d3d3d2;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search-form input[type="search"]:hover {
+  border: 2px solid #c7c6c5;
+  padding: 12px 14px;
+}
+
+.search-form input[type="search"]:focus {
+  outline: none;
+  border-radius: 3px;
+  border: 2px solid #8fbdec;
+  padding: 12px 14px;
+}
+
+.search-form label {
+  display: block;
+  position: absolute;
+  color: #b2b2b2;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  top: 31px;
+  left: 30px;
+  transition: 0.35s;
+}
+
+.search-form input[type="search"]:focus + label {
+  top: 5px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #5b9ddf;
 }
 
 .user-search input[type="search"] {
