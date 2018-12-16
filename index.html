@@ -23,7 +23,7 @@
         </a>
           <ul class="site-navigation">
             <li class="site-item">
-              <a class="click" href="#catalog">Каталог</a>
+              <a href="inner.html" class="click">Каталог</a>
               <div class="sub-menu">
                 <ul>
                   <li class="sub-list new"><a href="#">Новинки</a></li>
@@ -41,12 +41,12 @@
             <li class="user user-search">
               <span class="user-search-loupe user-search-loupe-picture" href="#" aria-label="Поиск">Поиск</span>
               <!-- Поиск -->
-              <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
-                <div class="field-wrapper">
-                  <input class="input" type="search" name="search" id="search-field" placeholder="Что ищем?" required>
+              <div class="search-form">
+                <form action="http://echo.htmlacademy.ru" method="get">
+                  <input type="search" name="search" id="search-field" placeholder="Что ищем?" required>
                   <label for="search-field"></label>
-                </div>
-              </form>
+                </form>
+              </div>
             </li>
             <li class="user user-login">
               <a class="user-login-link user-login-link-enter">Вход</a>
@@ -66,7 +66,7 @@
                 </form>
               </div>
             </li>
-            <li class="user user-login-link user-login-link-basket"><a>Пусто</a>
+            <li class="user"><a href="#" class="user-login-link user-login-link-basket">Пусто</a>
             </li>
           </ul>
         </nav>
@@ -209,39 +209,47 @@
           </ul>
         </section>
         <section class="about">
-          <h2 class="about-title">Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженого собственного
+          <div class="about-background">
+            <h2 class="about-title">Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженого собственного
         производства на развес</h2>
-          <ul class="about-list">
-            <li class="about-item about-item-equipment">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
-            </li>
-            <li class="about-item about-item-natural-products">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингриденты и добавки произведены из натурального, экологически чистого сырья.
-            </li>
-            <li class="about-item about-item-purchase">Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний, с которым нас связывает долговременное сотрудничество.
-            </li>
-            <li class="about-item about-item-quality">Доставка нашего мороженого до заказчиков осуществляется в специальном термопакете, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
-            </li>
-          </ul>
+            <section class="about-list">
+              <div class="about-item about-item-equipment">
+                <p> Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+              </div>
+              <div class="about-item about-item-natural-products">
+                <p> Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингриденты и добавки произведены из натурального, экологически чистого сырья.</p>
+              </div>
+              <div class="about-item about-item-purchase">
+                <p> Закупка ингридиентов производится только у проверенных фермерских хозяйств и компаний, с которым нас связывает долговременное сотрудничество.</p>
+              </div>
+              <div class="about-item about-item-quality">
+                <p> Доставка нашего мороженого до заказчиков осуществляется в специальном термопакете, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+              </div>
+            </section>
+          </div>
         </section>
-        <div class="wrapper">
-          <div class="blog">
-            <h2 class="blog-title">Новое в нашем блоге</h2>
-            <a class="blog-link">10 способов сервировки
-             фруктовых щербетов к
-             столу</a>
-          </div>
-          <div class="subscribe">
-            <p class="subscribe-text"> Подпишитесь на нашу сладкую рассылку и будете всегда в курсе самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
-            <form class="conversation-form" action="#" method="post">
-              <div class="conversation-form-one">
-                <input class="send-btn-email" type="email" id="email" placeholder="Электронная почта" required>
-                <label class="field-caption" for="email"></label>
+        <section>
+          <div class="wrapper">
+            <div class="blog">
+              <h2 class="blog-title">Новое в нашем блоге</h2>
+              <div class="blog-content">
+                <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
               </div>
-              <div class="conversation-form-two">
-                <input class="btn-subscribe-one" type="button" value="Отправить">
-              </div>
-            </form>
+            </div>
+            <div class="subscribe">
+              <p class="subscribe-text"> Подпишитесь на нашу сладкую рассылку и будете всегда в курсе самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
+              <form class="conversation-form" action="#" method="post">
+                <div class="conversation-form-one">
+                  <input class="send-btn-email" type="email" id="email" placeholder="Электронная почта" required>
+                  <label class="field-caption" for="email"></label>
+                </div>
+                <div class="conversation-form-two">
+                  <input class="btn-subscribe-one" type="button" value="Отправить">
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
+        </section>
       </main>
       <div class="map">
       </div>
