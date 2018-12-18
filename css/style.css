@@ -660,7 +660,7 @@ p.working-hours {
     width: 267px;
 }
 
-.catalog-item::after {
+/* .catalog-item::after {
   content: "";
   position: absolute;
 
@@ -671,7 +671,7 @@ p.working-hours {
   border-radius: 5px;
   box-shadow: 0 20px 20px rgba(0,0,0,.4);
   opacity: 0;
-}
+} */
 
 .catalog-item img {
   border-radius: 50%;
@@ -776,7 +776,7 @@ p.working-hours {
   display: none;
 }
 
-.catalog-filter-form input[type="submit"]{
+.catalog-filter-form input[type="submit"] {
   font-size: 16px;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
@@ -891,14 +891,13 @@ p.working-hours {
 .contacts {
   text-align: left;
   background: #ffffff;
-  width: 305px;
+  width: 267px;
   min-height: 305px;
-  padding: 20px;
-  padding-left: 35px ;
+  padding-left: 25px;
   border-radius: 15px;
   position: absolute;
-  right: 27px;
-  top: 1860px;
+  right: 440px;
+  top: 1920px;
 }
 
 .pin {
@@ -1302,6 +1301,106 @@ margin: 10px 0 0 5px;
   cursor: pointer;
 }
 
+.btn-apply {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 23px;
+    margin-top: 30px;
+    width: 144px;
+    height: 37px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+
+.btn-apply:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+.btn-apply:focus {
+  background-color: rgb(237, 237, 237);
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+  color: #000000;
+  border-style: none;
+  }
+
+.goods-item-btn {
+  position: absolute;
+  bottom: -19px;
+  left: 34px;
+  z-index: 40;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  visibility: visible;
+  text-decoration: none;
+  color: #fff;
+  visibility: hidden;
+  background-image: linear-gradient(to bottom, #f26843, #e74a35);
+
+  border-radius: 25px;
+  padding: 10px 16px;
+  text-align: center;
+}
+
+.goods-item-background {
+  border-radius: 5px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 293px;
+  height: 405px;
+  opacity: 0.2;
+  visibility: hidden;
+}
+
+.catalog-item:hover .goods-item-btn {
+  visibility: visible;
+}
+
+.catalog-item:hover .goods-item-background {
+  visibility: visible;
+}
+
+.goods-item-background:hover {
+  border-radius: 5px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 293px;
+  height: 405px;
+  opacity: 0.2;
+}
+
+.goods-item-background:active {
+  border-radius: 5px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 293px;
+  height: 405px;
+  opacity: 0.2;
+}
+
+.goods-item-btn:hover {
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 1);
+  background-image: linear-gradient(to bottom, #f58669, #ec6f5e);
+
+}
+
+.goods-item-btn:active {
+  box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843);
+}
+
 .heart {
   position: relative;
   left: -20px;
@@ -1620,12 +1719,13 @@ border-color: 2px solid #2e88e4;
   line-height: 18px;
   font-weight: 500;
   margin: 0;
-  margin: 0;
   display: inline;
+  padding: 9px 16px 9px 17px;
   border-radius: 50px;
   border: none;
   background-color: rgba(255,255,255,0.2);
 }
+
 
 .fat {
   margin-left: 0;
@@ -1702,6 +1802,91 @@ border-color: 2px solid #2e88e4;
 .label-text {
   color: #ffffff;
   margin-left: 45px;
+}
+
+.label-chocolate {
+  position: relative;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.label-sugar {
+  position: relative;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.label-fruits {
+  position: relative;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.label-syrup {
+  position: relative;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.label-jam {
+  position: relative;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.label-chocolate:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0px;
+  left: -52px;
+}
+
+.label-sugar:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0px;
+  left: -31px;
+}
+
+.label-fruits:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0px;
+  left: -31px;
+}
+
+.label-syrup:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0px;
+  left: -31px;
+}
+
+.label-jam:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: url("../img/checkbox-off.svg") no-repeat;
+  top: 0px;
+  left: -31px;
 }
 
 .zero {
@@ -1783,13 +1968,21 @@ border-color: 2px solid #2e88e4;
 }
 
 .filter-wrapper input[type="checkbox"]:checked + label:before {
-  background: url("../img/-on.svg") no-repeat;
+  background: url("../img/checkbox-on.svg") no-repeat;
 }
 
 .filter-wrapper label:hover:before {
   background: url("../img/checkbox-off.svg") no-repeat;
 }
 
+.filter-wrapper input[type="checkbox"]:checked + label:hover:before {
+  background: url("../img/checkbox-on.svg") no-repeat;
+}
+
+.fat label:last-child,
+.filter-wrapper label:last-child {
+  margin-right: 0;
+}
 
 .filter-radio,
 .filter-radio:checked {
