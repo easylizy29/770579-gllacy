@@ -19,7 +19,7 @@
       </a>
         <ul class="site-navigation">
           <li class="site-item">
-            <a class="click" href="#catalog">Каталог</a>
+            <a class="click catalog-hover" href="#catalog">Каталог</a>
             <div class="sub-menu">
               <ul>
                 <li class="sub-list new"><a href="#">Новинки</a></li>
@@ -62,22 +62,37 @@
               </form>
             </div>
           </li>
-          <li class="basket-link"><a href="#">Корзина</a>
+          <li class="user">
+            <a href="#" class="user-login-link-basket hover-basket">2 товара</a>
             <form class="basket-form">
               <table>
-                <tr>
-                  <td><a class="cart-link-remove"></a></td>
-                  <td class="orange"></td>
-                  <td> Пломбир с апельсиновым джемом </td>
-                  <td>1.5кг Х <span class="light">200 руб.</span></td>
-                  <td>300 руб.</td>
+                <tr class="basket-item">
+                  <td><a class="cart-link-one"></a></td>
+                  <td>
+                    <div class="orange">
+                      <img class="name-orange-strawberry" src="img/icecream-orange.jpg" width="33" height="33" alt="оранжевый">
+                      <p class="item-thing">Пломбир с апельсиновым джемом</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="thing-one">1.5кг Х <span class="light">200 руб.</p></span></td>
+                  <td>
+                    <p class="thing-two">300 руб.</p>
+                  </td>
                 </tr>
-                <tr>
-                  <td><a class="cart-link-remove"></a></td>
-                  <td class="strawberry"></td>
-                  <td>Клубничный пломбир с присыпкой из белого шоколада</td>
-                  <td>1.5кг Х <span class="light">300 руб.</span></td>
-                  <td>450 руб.</td>
+                <tr class="basket-item last-item">
+                  <td><a class="cart-link-two"></a></td>
+                  <td>
+                    <div class="strawberry">
+                      <img class="name-orange-strawberry" src="img/icecream-strawberry.jpg" width="33" height="33" alt="оранжевый">
+                      <p class="item-thing">Клубничный пломбир с присыпкой из белого шоколада</p>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="thing-one">1.5кг Х <span class="light">300 руб.</p></span></td>
+                  <td>
+                    <p class="thing-two">450 руб.</p>
+                  </td>
                 </tr>
                 <tr>
                   <td class="result" colspan="5">Итого: 750 руб.</td>
@@ -113,7 +128,7 @@
         <form action="http://echo.htmlacademy.ru" method="get">
           <div class="catalog-filter-form">
             <div>
-              <legend class="catalog-filter-title">Сортировка</legend>
+              <legend class="catalog-filter-title">Сортировка:</legend>
               <div class="catalog-filter-group">
                 <select class="select">
                   <option class="select-list" value="popular" selected>по популярности</option>
@@ -131,7 +146,7 @@
               </fieldset>
             </div>
             <div class="fat">
-              <legend class="catalog-filter-title">Жирность</legend>
+              <legend class="catalog-filter-title">Жирность:</legend>
               <fieldset class="radio-fat-group">
                 <input type="radio" name="fat" value="zero" id="filter-">
                 <label class="label-text zero" for="filter-">0%</label>
@@ -230,7 +245,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title"> Сливочное крем-брюле
         с  карамельной подливкой</h3>
             </a>
@@ -248,7 +263,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title"> Сливочное с
               брусничным джемом</h3>
             </a>
@@ -267,7 +282,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">Сливочно-черничное с
             цельными  ягодами черники</h3>
             </a>
@@ -286,7 +301,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">Сливочно-лимонное с
             карамельной
           присыпкой</h3>
@@ -305,7 +320,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">Сливочное с
             шоколадной  стружкой</h3>
             </a>
@@ -323,7 +338,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">Сливочно-ванильное с кусочками шоколада</h3>
             </a>
           </li>
@@ -340,7 +355,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">
               Сливочное с
               ментоловым  сиропом</h3>
@@ -359,7 +374,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">
                 Сливочное с кусочками
               черного  шоколада</h3>
@@ -378,7 +393,7 @@
                 <span class="weight-1">/кг</span>
               </div>
             </div>
-            <a class="catalog-item-title" href="#">
+            <a class="catalog-item-link" href="#">
               <h3 class="catalog-item-title">
                 Сливочное с мятным
               сиропом</h3>

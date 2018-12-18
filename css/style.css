@@ -306,6 +306,11 @@ ul.slider-pagination {
   text-decoration: underline rgba(255,255,255,0.3);
 }
 
+.catalog-hover {
+  background-color: rgb(208, 112, 88);
+  text-decoration: none;
+}
+
 .sub-menu {
   display: none;
   position: absolute;
@@ -340,16 +345,18 @@ ul.slider-pagination {
   color: rgb(50, 50, 50);
   line-height: 1.143;
   text-align: left;
+
   z-index: 358;
   margin-bottom: 7px;
 }
 
 .sub-menu .sub-list {
   padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20px;
   color: #323232;
-
 }
+
 
 .sub-list:hover {
   background-color: #fbded7;
@@ -357,8 +364,21 @@ ul.slider-pagination {
   color: #323232;
 }
 
+.sub-list:first-child:hover {
+  background-color: #fbded7;
+  border-radius: 5px 5px 0 0;
+  color: #323232;
+}
+
+
 .sub-list:active {
   background-color: #f6b5a5;
+}
+
+.sub-list:first-child:active {
+  background-color: #f6b5a5;
+  border-radius: none;
+  color: #323232;
 }
 
 .sub-menu a {
@@ -371,11 +391,8 @@ ul.slider-pagination {
   font-weight: 700;
   line-height: 1.143;
   text-align: left;
-  padding-bottom: 20px;
+  margin-bottom: 0;
   border-bottom: 1px solid #d1d0ce;
-
-  width: 125px;
-  height: 1px;
   z-index: 360;
 }
 
@@ -1001,16 +1018,121 @@ text-decoration: none;
   margin-top: 8px;
 }
 
+.user:hover .basket-form {
+  display: block;
+}
+
 .basket-form {
-  text-align: center;
   background: #f8f7f4;
-  width: 345px;
-  min-height: 82px;
   color: #000;
-  padding: 0px;
+  padding: 20px 14px 21px 15px;
   border-radius: 5px;
-  vertical-align: middle;
   display: none;
+
+  border-radius: 5px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  min-width: 540px;
+  min-height: 230px;
+  z-index: 150;
+}
+
+.basket-form .basket-item {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.last-item {
+  padding-bottom: 17px;
+  border-bottom: 1px solid #cacac7;
+}
+
+.cart-link-one {
+  position: absolute;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url("../img/cross-big.svg") no-repeat 50% 50%;
+  left: 0px;
+  top: 21px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.cart-link-two {
+  position: absolute;
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url("../img/cross-big.svg") no-repeat 50% 50%;
+  left: 0px;
+  top: 31px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.orange {
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  width: 350px;
+}
+
+.name-orange-strawberry  {
+  margin-right: 14px;
+  border-radius: 50%;
+}
+
+.strawberry {
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  width: 350px;
+}
+
+.item-thing {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.thing-one {
+  padding-left: 0;
+  min-width: 120px;
+}
+
+.thing-two {
+  margin-left: 32px;
+  min-width: 70px;
+}
+
+.light {
+  color: #b9b8b6;
+}
+
+.result {
+  text-align: right;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: 10px;
+  top: 175px;
+}
+
+.make-order {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
 }
 
 .user-login-link-basket::before {
@@ -1026,6 +1148,35 @@ text-decoration: none;
   z-index: 30;
   text-decoration: none;
   color: #000000;
+}
+
+.hover-basket::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  width: 21px;
+  height: 20px;
+  background: transparent url("../img/basket-red.svg") no-repeat
+  center center;
+  margin-right: 10px;
+}
+
+.hover-basket {
+  background: #ffffff;
+  color: #000000;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  display: block;
+  position: relative;
+  margin-left: 9px;
+  padding: 9px 17px 8px 44px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 .user-login-link-basket:hover {
@@ -1498,6 +1649,17 @@ border-color: 2px solid #2e88e4;
 
 .catalog-filter-group {
   overflow: hidden;
+}
+
+.catalog-filter-group:hover .select {
+  color: #323232;
+  border: none;
+}
+
+.select:focus {
+  color: #323232;
+  background-color: #ffffff;
+  border: none;
 }
 
 .select {
