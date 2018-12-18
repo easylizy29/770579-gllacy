@@ -7,7 +7,11 @@ body {
 }
 
 html { box-sizing: border-box; }
-
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
 
 img {
    max-width: 100%;
@@ -57,10 +61,9 @@ a {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
-    margin-right: 21px;
+    margin-left: auto;
     align-self: flex-end;
     display: inline-block;
-    padding: 11px 21px;
   	vertical-align: top;
   	color: #ffffff;
   	text-decoration: none;
@@ -477,8 +480,7 @@ p.working-hours {
   line-height: 41px;
   font-weight: 700;
   color: #ffffff;
-  margin-top: 23px;
-  margin-left: 20px;
+  margin: 0;
 }
 
 .offer-text {
@@ -486,15 +488,17 @@ p.working-hours {
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
-  margin: 20px;
+  margin: 0;
+  margin-bottom: 23px;
 }
 
 .offer-item {
-  max-width: 560px;
+  width: 560px;
   min-height: 229px;
   display: flex;
   border-radius: 15px;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 24px 24px 0 22px;
 }
 
 .offer-item-1 {
@@ -660,18 +664,11 @@ p.working-hours {
     width: 267px;
 }
 
-/* .catalog-item::after {
-  content: "";
-  position: absolute;
 
+
+.catalog-item::before {
   z-index: 1;
-  width: 110%;
-  min-height: 108%;
-  background-color: rgba(248,247,244,.2);
-  border-radius: 5px;
-  box-shadow: 0 20px 20px rgba(0,0,0,.4);
-  opacity: 0;
-} */
+}
 
 .catalog-item img {
   border-radius: 50%;
@@ -1190,6 +1187,10 @@ text-decoration: none;
   color: #000000;
 }
 
+.cart-empty {
+  pointer-events: none;
+}
+
 .feedback {
   text-align: center;
   background: #f8f7f4;
@@ -1360,10 +1361,12 @@ margin: 10px 0 0 5px;
 
 .catalog-item:hover .goods-item-btn {
   visibility: visible;
+  z-index: 4;
 }
 
 .catalog-item:hover .goods-item-background {
   visibility: visible;
+  z-index: 3;
 }
 
 .goods-item-background:hover {
@@ -1423,6 +1426,10 @@ margin: 10px 0 0 5px;
   color: #ffffff;
 }
 
+.copyright-link {
+  color: #ffffff;
+}
+
 .copyright-link:hover,
 .copyright-link:focus {
   color: #ffffff;
@@ -1456,7 +1463,7 @@ input[type="email"] {
   border: 1.5px solid #b2b2b2;
   border-radius: 5px;
   padding-left: 10px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 
@@ -1786,7 +1793,7 @@ border-color: 2px solid #2e88e4;
   border: none;
   background-color: rgba(255,255,255,0.2);
   width: 194px;
-  height: 21px;
+  height: 35px;
 }
 
 .radio-fat-group {
@@ -1796,7 +1803,7 @@ border-color: 2px solid #2e88e4;
   border: none;
   background-color: rgba(255,255,255,0.2);
   width: 415px;
-  height: 21px;
+  height: 35px;
 }
 
 .label-text {
