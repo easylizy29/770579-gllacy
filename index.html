@@ -23,7 +23,7 @@
         </a>
           <ul class="site-navigation">
             <li class="site-item">
-              <a href="inner.html" class="click">Каталог</a>
+              <a href="inner.html" class="push">Каталог</a>
               <div class="sub-menu">
                 <ul>
                   <li class="sub-list new"><a href="#">Новинки</a></li>
@@ -34,8 +34,8 @@
                 </ul>
               </div>
             </li>
-            <li class="site-item"><a class="click" href="delivery-and-price.html">Доставка и оплата</a></li>
-            <li class="site-item"><a class="click" href="company.html">О компании</a></li>
+            <li class="site-item"><a class="push" href="delivery-and-price.html">Доставка и оплата</a></li>
+            <li class="site-item"><a class="push" href="company.html">О компании</a></li>
           </ul>
           <ul class="user-navigation">
             <li class="user user-search">
@@ -75,24 +75,19 @@
           C 10 до 20, ежедневно
           <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></p>
       </header>
-      <section class="feedback">
-        <h2 class="review-name">Мы обязательно вам ответим!</h2>
+      <div class="feedback">
+        <p class="review-name">Мы обязательно вам ответим!</p>
+        <button class="close-btn" type="button" title="Закрыть"></button>
         <form class="name-form" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="field-wrapper">
-            <label for="name"></label>
-            <input class="input-1" type="text" name="name" id="name" placeholder="Как вас зовут?" required>
-          </div>
-          <div class="field-wrapper">
-            <label for="email-for-answer"></label>
-            <input class="input-2" type="email" name="email-for-answer" id="answer" placeholder="Ваша почта для ответа?" required>
-          </div>
-          <div class="field-wrapper">
-            <label for="write-something"></label>
-            <input class="input-3" type="text" name="write-something" id="write" placeholder="Напишите что-нибудь..." required>
-          </div>
-          <button class="btn btn-subscribe send-btn" type="submit">Отправить</button>
+          <label class="contact-name" for="your-name"></label>
+          <input class="contact-name-field" type="text" name="your-name" id="your-name" placeholder="Как вас зовут?" required>
+          <label class="contact-mail" for="your-email"></label>
+          <input class="contact-mail-field" type="text" name="email-for-answer" id="email-for-answer" placeholder="Ваша почта для ответа?" required>
+          <label class="contact-message" for="write-something"></label>
+          <input class="contact-message-field" type="text" name="write-something" id="write-something" placeholder="Напишите что-нибудь..." required>
+          <button class="btn-subscribe-two" type="submit">Отправить</button>
         </form>
-      </section>
+      </div>
       <main class="index-main">
         <h1 class="visually-hidden">Глейсишоп - магазин мороженого</h1>
         <div class="slider">
@@ -266,7 +261,9 @@
           8 812 450-25-25</a>
 
           <p class="contacts-caption"><small>(с 10 до 20 ежедневно)</small></p>
-          <a class="btn btn-contacts" href="feedback.html">Форма обратной связи</a>
+          <div class="form-contacs-btn">
+            <a href="#" class="btn-contacts">Форма обратной связи</a>
+          </div>
         </div>
         <div class="footer-socials">
           <ul class="social-list">
@@ -277,16 +274,15 @@
           </ul>
         </div>
         <ul class="footer-menu">
-          <li class=" footer-menu heart"><a class="footer-menu info  info-1" href="#">Для поставщиков</a></li>
+          <li class=" footer-menu heart"><a class="footer-menu info info-two" href="#">Для поставщиков</a></li>
           <li><a class="footer-menu info" href="#">О производстве</a></li>
           <li><a class="footer-menu info" href="#">Наши документы</a></li>
           <li><a class="footer-menu info" href="#">Экологические стандарты</a></li>
         </ul>
-        <p class="copyright">
-          Сделано в
-          <a class="copyright-link" href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a> HTML Academy
-          </a> © 2017
-        </p>
+        <div class="copyright-link">
+          <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
+          <div>Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/">HTML Academy</a> &#169; 2017</div>
+        </div>
       </footer>
       <div class="modal-modal-map">
         <img class="pin" src="img/pin.svg" width="80" height="140" alt="Пин">
@@ -297,6 +293,7 @@
       </div>
     </div>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -52,10 +52,6 @@ a {
   box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004) inset;
 }
 
-.btn-subscribe {
-  margin-bottom: 5px;
-}
-
 .btn-offer {
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 18px;
@@ -282,22 +278,22 @@ ul.slider-pagination {
   display: block;
 }
 
-.site-item:hover .click {
+.site-item:hover .push {
   background-color: rgb(247, 246, 243);
   border-radius: 15px;
   color: #000000;
 }
 
-.click {
+.push {
   margin-left: 0;
   color: #ffffff;
 }
 
-.click:hover {
+.push:hover {
   background: #f7f6f3;
 }
 
-.click {
+.push {
   display: block;
   color: white;
   font-family: "Roboto", "Arial", sans-serif;
@@ -594,22 +590,6 @@ p.working-hours {
   align-self: baseline;
 }
 
-.btn-subscribe {
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px 20px;
-  color: #ffffff;
-  border-radius: 30px;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
-  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
-  text-align: center;
-  text-decoration: none;
-  border: 0;
-}
-
 .btn-subscribe-one {
   font-size: 18px;
   line-height: 24px;
@@ -628,6 +608,7 @@ p.working-hours {
   outline: 0;
   min-height: 46px;
   min-width: 128px;
+  outline: none;
 }
 
 .btn-subscribe-one:hover {
@@ -919,6 +900,44 @@ p.working-hours {
   padding-left: 2px;
 }
 
+.btn-contacts:active .feedback {
+  display: block;
+}
+
+
+.btn-contacts {
+  display: inline-block;
+  padding: 10px 20px;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
+
+  border-radius: 30px;
+  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
+  text-align: center;
+  border: 0;
+  margin-bottom: auto;
+  animation-delay: 1s;
+}
+
+.btn-contacts:hover,
+.btn-contacts:focus {
+  background-image: linear-gradient(to top, #ed715f 20% , #f48569 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+}
+
+.btn-contacts:active {
+  background-image: linear-gradient(to top, #f26843 20% , #d84732 100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004) inset;
+}
+
+
+
 .footer-contacts  {
   font-size: 18px;
   line-height: 22px;
@@ -1012,6 +1031,12 @@ text-decoration: none;
 .footer-menu li {
   width: 50%;
   margin-top: 8px;
+}
+
+.footer-menu:hover,
+.footer-menu:focus li {
+  color: #ffbc9e;
+  text-decoration:underline;
 }
 
 .user:hover .basket-form {
@@ -1192,61 +1217,166 @@ text-decoration: none;
 }
 
 .feedback {
-  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #f8f7f4;
-  min-height: 443px;
+  min-height: 440px;
   width: 480px;
   color: #000;
-  padding: 20px;
+  padding: 20px 25px 25px 24px;
   border-radius: 15px;
-  margin: auto;
-  vertical-align: middle;
   display: none;
+  z-index: 200;
+}
+
+.feedback {
+  display: block;
+}
+
+@keyframes bounce {
+  0%   {transform: translateY(-2000px) translateX(-50%);}
+  70%  {transform: translateY(-200px) translateX(-50%);}
+  90%  {transform: translateY(-240px) translateX(-50%);}
+  100% {transform: translateY(-230px) translateX(-50%);}
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.feedback-show {
+  display:block;
+
+  animation: bounce 0.6s;
+}
+
+.feedback-error {
+  animation: shake 0.6s;
 }
 
 .review-name {
-  margin-left: -95px;
+  display: block;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 23px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
 }
 
-.input-1 {
+.close-btn {
+  position: absolute;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url("../img/cross-big.svg") no-repeat 50% 50%;
+  right: 15px;
+  top: 21px;
+  cursor: pointer;
+  outline: none;
+  border: none
+}
+
+.name-form {
+  display: block;
+}
+
+.contact-name,
+.contact-mail,
+.contact-message {
+  position: absolute;
+  display: block;
+  cursor:text;
+  left: 40px;
+  color: #999;
+  z-index:3;
+  transition: 0.25s;
+}
+
+.contact-name-field,
+.contact-mail-field {
   width: 267px;
-  height: 43px;
-  margin-left: -175px;
+  box-sizing: border-box;
+  border: 1px solid #d3d3d2;
+  padding: 11px 14px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #323232;
   margin-bottom: 20px;
-  padding: 2px 5px;
-
-  font-family: "Roboto", sans-serif;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
-.input-2 {
-  width: 267px;
-  height: 43px;
-  margin-left: -175px;
-  margin-bottom: 20px;
-  padding: 2px 5px;
-
-  font-family: "Roboto", sans-serif;
-  left: auto;
-
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-}
-
-.input-3 {
-  width: 430px;
+.contact-message-field {
+  display: block;
+  width: 100%;
   height: 155px;
-  margin-left: -15px;
-  margin-bottom: 10px;
-  padding: 2px 5px;
-  font-family: "Roboto", sans-serif;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #d3d3d2;
+  padding-left: 14px;
+  padding-bottom: 100px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #323232;
+  margin-bottom: 25px;
+  outline: none;
+  resize: none;
+  text-align: left;
+  vertical-align: top;
 }
 
-.send-btn {
-margin: 10px 0 0 5px;
+
+.btn-subscribe-two {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-image: linear-gradient(to top, #e74b36 20% , #f26843  100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.004);
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: 300px;
+  outline: none;
+}
+
+.btn-subscribe-two:hover {
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 1);
+  background-image: linear-gradient(to bottom, #f58669, #ec6f5e);
+}
+
+.btn-subscribe-two:active {
+  box-shadow: 0px 2px 2px 0px rgba(148, 39, 24, 1) inset;
+  background-image: linear-gradient(to bottom, #e74a35, #f26843);
 }
 
 .textarea {
@@ -1411,19 +1541,20 @@ margin: 10px 0 0 5px;
   background-repeat: no-repeat;
 }
 
-.info-1 {
-  position: relative;
-  left: 20px;
-  text-decoration: underline;
-  color: #ffffff;
-  font-weight: 700;
-}
 
 .info {
   font-size: 13px;
   line-height: 18px;
   text-decoration: underline;
   color: #ffffff;
+}
+
+.info-two {
+  position: relative;
+  left: 20px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .copyright-link {
@@ -1436,6 +1567,16 @@ margin: 10px 0 0 5px;
   background-color: #849d8f;
 }
 
+.links-item-copyright {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.links-item-copyright:hover,
+.links-item-copyright:focus {
+  color: #ffbc9e;
+  text-decoration: underline;
+}
 
 .field-caption {
   position: relative;
