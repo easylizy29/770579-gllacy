@@ -270,11 +270,22 @@ ul.slider-pagination {
   padding-top: 7px;
 }
 
-.site-item {
+.site-item: {
   display: inline-block;
 }
+ /* работа над ошибками */
+.site-item::before {
+  display:block;
+  width: 170px;
+  height: 220px;
+  background: #ffffff;
+  visibility: hidden;
+}
 
-.site-item:hover .sub-menu {
+/* работа над ошибками */
+.site-item:hover .sub-menu,
+.sub-menu:hover
+ {
   display: block;
 }
 
@@ -1051,7 +1062,7 @@ text-decoration: none;
   color: #000;
   padding: 20px 14px 21px 15px;
   border-radius: 5px;
-  display: block;
+  display: none;
 
   border-radius: 5px;
   background-color: rgb(248, 247, 244);
@@ -1064,7 +1075,7 @@ text-decoration: none;
   z-index: 150;
 }
 
-.basket-form .basket-item {
+.basket-form .basket-row {
   display: flex;
   position: relative;
   align-items: center;
@@ -1118,7 +1129,7 @@ text-decoration: none;
   border-radius: 50%;
 }
 
-.item-thing {
+.basket-item-text {
   padding-right: 10px;
 
 }
