@@ -284,10 +284,6 @@ ul.slider-pagination {
   color: #000000;
 }
 
-.push {
-  margin-left: 0;
-  color: #ffffff;
-}
 
 .push:hover {
   background: #f7f6f3;
@@ -303,6 +299,8 @@ ul.slider-pagination {
   padding: 7px 14px;
   border-radius: 15px;
   text-decoration: underline rgba(255,255,255,0.3);
+  margin-left: 0;
+  color: #ffffff;
 }
 
 .catalog-hover {
@@ -1434,7 +1432,7 @@ text-decoration: none;
 
 .btn-apply {
     background-color: rgba(255, 255, 255, 0.2);
-    margin-left: 23px;
+    margin-left: 16px;
     margin-top: 30px;
     width: 144px;
     height: 37px;
@@ -1872,6 +1870,7 @@ border-color: 2px solid #2e88e4;
   border-radius: 50px;
   border: none;
   background-color: rgba(255,255,255,0.2);
+  width: 702px;
 }
 
 
@@ -1891,9 +1890,30 @@ border-color: 2px solid #2e88e4;
   background: url("../img/radio-off.svg") no-repeat;
 }
 
+.fat input[type="radio"]:checked + label:hover:before {
+  background: url("../img/radio-on.svg") no-repeat;
+}
+
 .catalog-filter-title {
   margin-bottom: 10px;
 }
+
+.range {
+  position: absolute;
+  border-radius: 50%;
+  background: #ffffff;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.line {
+  border-bottom: 2px solid;
+  background: #ffffff;
+
+}
+
+
 
 .catalog-filter-group {
   overflow: hidden;
@@ -1928,13 +1948,73 @@ border-color: 2px solid #2e88e4;
 }
 
 .catalog-range-group {
-  margin-right: 10px;
-  display: inline;
+  position: relative;
+  margin-top: -2px;
+  margin-right: 20px;
+  width: 218px;
   border-radius: 50px;
   border: none;
   background-color: rgba(255,255,255,0.2);
-  width: 194px;
-  height: 35px;
+  padding: 16px 15px;
+  box-sizing: border-box;
+}
+
+.bar {
+  content: "";
+  height: 4px;
+  background-image: linear-gradient(to right, rgba(255,255,255,0.5) 15%, #fff 15%, #fff 70%, rgba(255,255,255,0.5) 70%, rgba(255,255,255,0.5) 100%);
+  bottom: 10px;
+  left: 200px;
+}
+
+.toggle-one{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  top: 8px;
+  left: 34px;
+  cursor: pointer;
+}
+
+.toggle-two{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  top: 8px;
+  left: 135px;
+  cursor: pointer;
+}
+
+.toggle-three{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #97aca0;
+  border-radius: 50%;
+  top: 15px;
+  left: 41px;
+  cursor: pointer;
+}
+
+.toggle-four{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #97aca0;
+  border-radius: 50%;
+  top: 15px;
+  left: 143px;
+  cursor: pointer;
 }
 
 .radio-fat-group {
@@ -2079,8 +2159,8 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  top: 0;
   left: -36px;
+  top: -2px;
 }
 
 .ten::before {
@@ -2090,8 +2170,8 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  top: 0;
   left: -36px;
+  top: -2px;
 }
 
 .thirty::before {
@@ -2101,8 +2181,8 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  top: 0;
   left: -36px;
+  top: -2px;
 }
 .over-thirty::before {
   content: "";
@@ -2111,8 +2191,8 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  top: 0;
   left: -36px;
+  top: -2px;
 }
 
 .filter-wrapper input[type="checkbox"]:checked + label:before {
