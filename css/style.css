@@ -1042,11 +1042,16 @@ text-decoration: none;
 }
 
 .basket-form {
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
   background: #f8f7f4;
   color: #000;
   padding: 20px 14px 21px 15px;
   border-radius: 5px;
-  display: none;
+  display: block;
 
   border-radius: 5px;
   background-color: rgb(248, 247, 244);
@@ -1055,7 +1060,7 @@ text-decoration: none;
   right: 0px;
   top: 40px;
   min-width: 540px;
-  min-height: 230px;
+  min-height: 242px;
   z-index: 150;
 }
 
@@ -1064,24 +1069,25 @@ text-decoration: none;
   position: relative;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   margin-left: 0;
   margin-right: 0;
+  margin-top: -15px;
 }
 
 .last-item {
-  padding-bottom: 17px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #cacac7;
 }
 
 .cart-link-one {
   position: absolute;
   display: block;
-  width: 13px;
-  height: 13px;
-  background: url("../img/cross-big.svg") no-repeat 50% 50%;
-  left: 0px;
-  top: 21px;
+  width: 19px;
+  height: 19px;
+  background: url("../img/cross-small.svg") no-repeat 50% 50%;
+  left: -5px;
+  top: 12px;
   cursor: pointer;
   outline: none;
   border: none;
@@ -1090,21 +1096,21 @@ text-decoration: none;
 .cart-link-two {
   position: absolute;
   display: block;
-  width: 13px;
-  height: 13px;
-  background: url("../img/cross-big.svg") no-repeat 50% 50%;
-  left: 0px;
-  top: 31px;
+  width: 19px;
+  height: 19px;
+  background: url("../img/cross-small.svg") no-repeat 50% 50%;
+  left: -5px;
+  top: 20px;
   cursor: pointer;
   outline: none;
   border: none;
 }
 
-.orange {
+.orange-strawberry {
   display: flex;
   align-items: center;
-  padding-left: 26px;
-  width: 350px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .name-orange-strawberry  {
@@ -1112,16 +1118,9 @@ text-decoration: none;
   border-radius: 50%;
 }
 
-.strawberry {
-  display: flex;
-  align-items: center;
-  padding-left: 26px;
-  width: 350px;
-}
-
 .item-thing {
   padding-right: 10px;
-  padding-left: 10px;
+
 }
 
 .thing-one {
@@ -1130,7 +1129,7 @@ text-decoration: none;
 }
 
 .thing-two {
-  margin-left: 32px;
+  margin-left: 10px;
   min-width: 70px;
 }
 
@@ -1144,14 +1143,15 @@ text-decoration: none;
   line-height: 18px;
   font-weight: 700;
   position: absolute;
-  right: 10px;
-  top: 175px;
+  right: 12px;
+  top: 168px;
+  margin-top: -20px;
 }
 
 .make-order {
   position: absolute;
   bottom: 20px;
-  right: 10px;
+  right: 12px;
 }
 
 .user-login-link-basket::before {
