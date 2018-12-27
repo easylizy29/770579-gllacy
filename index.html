@@ -22,12 +22,12 @@
         alt="Логотип-магазина-Глейси">
         </a>
           <ul class="site-navigation">
-            <li class="site-item">
-              <a href="inner.html" class="push">Каталог</a>
+            <li class="site-item has-children">
+              <a href="#" class="push">Каталог</a>
               <div class="sub-menu">
                 <ul>
                   <li class="sub-list new"><a href="#">Новинки</a></li>
-                  <li class="sub-list"><a href="#">Сливочное</a></li>
+                  <li class="sub-list"><a href="inner.html">Сливочное</a></li>
                   <li class="sub-list"><a href="#">Щербеты</a></li>
                   <li class="sub-list"><a href="#">Фруктовый лед</a></li>
                   <li class="sub-list"><a href="#">Мелорин</a></li>
@@ -54,7 +54,7 @@
                 <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
                   <div class="field-wrapper">
                     <label for="user-mail"></label>
-                    <input type="text" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
+                    <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
                   </div>
                   <div class="field-wrapper">
                     <label for="password-field"></label>
@@ -71,23 +71,12 @@
             </li>
           </ul>
         </nav>
-        <p class="working-hours">
-          C 10 до 20, ежедневно
-          <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></p>
+        <div class="working-hours">
+          <div class="time"> C 10 до 20, ежедневно
+          </div>
+          <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></div>
       </header>
-      <div class="feedback">
-        <p class="review-name">Мы обязательно вам ответим!</p>
-        <button class="close-btn" type="button" title="Закрыть"></button>
-        <form class="name-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="contact-name" for="your-name"></label>
-          <input class="contact-name-field" type="text" name="your-name" id="your-name" placeholder="Как вас зовут?" required>
-          <label class="contact-mail" for="your-email"></label>
-          <input class="contact-mail-field" type="text" name="email-for-answer" id="email-for-answer" placeholder="Ваша почта для ответа?" required>
-          <label class="contact-message" for="write-something"></label>
-          <input class="contact-message-field" type="text" name="write-something" id="write-something" placeholder="Напишите что-нибудь..." required>
-          <button class="btn-subscribe-two" type="submit">Отправить</button>
-        </form>
-      </div>
+
       <main class="index-main">
         <h1 class="visually-hidden">Глейсишоп - магазин мороженого</h1>
         <div class="slider">
@@ -247,8 +236,12 @@
           </div>
         </section>
       </main>
-      <div class="map">
-      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002783!2d30.320858715677204!3d59.93871916905471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1545382079500"
+        allowfullscreen></iframe>
+    </div>
+    <div class="container">
       <footer class="main-footer">
         <div class="contacts">
           <h2 class="visually-hidden">Контакты</h2>
@@ -284,14 +277,21 @@
           <div>Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/">HTML Academy</a> &#169; 2017</div>
         </div>
       </footer>
-      <div class="modal-modal-map">
-        <img class="pin" src="img/pin.svg" width="80" height="140" alt="Пин">
-        <h2 class="visually-hidden">Как до нас добираться</h2>
-        <span class="modal-close"></span>
-        <a class="main-header-logo">
-            </a>
-      </div>
     </div>
+    <div class="feedback">
+      <h2 class="review-name">Мы обязательно вам ответим!</h2>
+      <button class="close-btn" type="button" title="Закрыть"></button>
+      <form class="name-form" action="https://echo.htmlacademy.ru/" method="post">
+        <label class="visually-hidden" for="your-name"></label>
+        <input class="contact-name-field" type="text" name="your-name" id="your-name" placeholder="Как вас зовут?" required>
+        <label class="contact-mail" for="your-email"></label>
+        <input class="contact-mail-field" type="email" name="email-for-answer" id="email-for-answer" placeholder="Ваша почта для ответа?" required>
+        <label class="contact-message" for="write-something"></label>
+        <textarea class="message" name="write-something" id="write-something" placeholder="Напишите что-нибудь..." required></textarea>
+        <button class="btn-subscribe-two" type="submit">Отправить</button>
+      </form>
+    </div>
+
   </div>
   <script src="js/script.js"></script>
 </body>

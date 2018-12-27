@@ -18,12 +18,12 @@
       alt="Логотип-магазина-Глейси">
       </a>
         <ul class="site-navigation">
-          <li class="site-item">
+          <li class="site-item has-children">
             <a href="inner.html" class="push catalog-hover">Каталог</a>
             <div class="sub-menu">
               <ul>
                 <li class="sub-list new"><a href="#">Новинки</a></li>
-                <li class="sub-list"><a href="#">Сливочное</a></li>
+                <li class="sub-list active"><a href="#">Сливочное</a></li>
                 <li class="sub-list"><a href="#">Щербеты</a></li>
                 <li class="sub-list"><a href="#">Фруктовый лед</a></li>
                 <li class="sub-list"><a href="#">Мелорин</a></li>
@@ -31,7 +31,7 @@
             </div>
           </li>
           <li class="site-item"><a class="push" href="delivery-and-price.html">Доставка и оплата</a></li>
-          <li class="site-item"><a class="push" href="company.html">О компании</a></li>
+          <li class="site-item"><a class="push" href="company.html">О Компании</a></li>
         </ul>
         <ul class="user-navigation">
           <li class="user user-search">
@@ -47,16 +47,16 @@
           <li class="user user-login">
             <a class="user-login-link user-login-link-enter">Вход</a>
             <div class="login-links">
-              <form class="user-mail-form" action="https://echo.htmlacademy.ru/" method="post">
+              <form class="user-mail-form" action="http://echo.htmlacademy.ru" method="post">
                 <div class="field-wrapper">
                   <label for="user-mail"></label>
-                  <input type="text" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
+                  <input type="email" name="user-mail" id="user-mail" placeholder="Электронная почта" required>
                 </div>
                 <div class="field-wrapper">
                   <label for="password-field"></label>
                   <input type="password" name="password-field" id="password-field" placeholder="Пароль" required>
                 </div>
-                <button class="btn-entrance" type="submit">Войти</button>
+                <button class="btn btn-entrance" type="submit">Войти</button>
                 <a class="forgot-password" href="#">Забыли пароль</a>
                 <a class="new-name" href="#">Новая регистрация</a>
               </form>
@@ -103,9 +103,10 @@
           </li>
         </ul>
       </nav>
-      <p class="working-hours">
-        C 10 до 20, ежедневно
-        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></p>
+      <div class="working-hours">
+        <div class="time"> C 10 до 20, ежедневно
+        </div>
+        <a class="phone" href="tel:+7-812-450-25-25">8 812 450-25-25</a></div>
     </header>
     </li>
     </ul>
