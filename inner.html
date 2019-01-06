@@ -129,7 +129,7 @@
         <form action="http://echo.htmlacademy.ru" method="get">
           <div class="catalog-filter-form">
             <div>
-              <legend class="catalog-filter-title">Сортировка:</legend>
+              <legend class="catalog-filter-title-one">Сортировка:</legend>
               <div class="catalog-filter-group">
                 <select class="select">
                   <option class="select-list" value="popular" selected>по популярности</option>
@@ -140,7 +140,7 @@
               </div>
             </div>
             <div>
-              <legend class="catalog-filter-title">Цена:100 руб. - 500 руб.</legend>
+              <legend class="catalog-filter-title-two">Цена:100 руб. - 500 руб.</legend>
               <div class="catalog-range-group">
                 <div class="bar"></div>
                 <div class="toggle-one"></div>
@@ -150,31 +150,31 @@
               </div>
             </div>
             <div class="fat">
-              <legend class="catalog-filter-title">Жирность:</legend>
+              <legend class="catalog-filter-title-three">Жирность:</legend>
               <fieldset class="radio-fat-group">
                 <input type="radio" name="fat" id="zero">
-                <label class="label-text zero" for="zero">0%</label>
+                <label class="label-text-one zero" for="zero">0%</label>
                 <input type="radio" name="fat" id="ten" checked>
-                <label class="label-text ten" for="ten">до 10%</label>
+                <label class="label-text-one ten" for="ten">до 10%</label>
                 <input type="radio" name="fat" id="thirty">
-                <label class="label-text thirty" for="thirty">до 30%</label>
+                <label class="label-text-one thirty" for="thirty">до 30%</label>
                 <input type="radio" name="fat" id="more-thirty">
-                <label class="label-text over-thirty" for="more-thirty">выше 30%</label>
+                <label class="label-text-one over-thirty" for="more-thirty">выше 30%</label>
               </fieldset>
             </div>
             <div class="filter-wrapper">
-              <legend class="catalog-filter-title">Наполнители:</legend>
+              <legend class="catalog-filter-title-four">Наполнители:</legend>
               <fieldset class="filter-checkbox-group">
                 <input type="checkbox" name="chocolate" id="chocolate" checked>
-                <label class="label-text label-chocolate" for="chocolate">Шоколадные</label>
+                <label class="label-text-two label-chocolate" for="chocolate">Шоколадные</label>
                 <input type="checkbox" name="sugar" id="sugar" checked>
-                <label class="label-text label-sugar" for="sugar">Сахарные присыпки</label>
+                <label class="label-text-two label-sugar" for="sugar">Сахарные присыпки</label>
                 <input type="checkbox" name="fruits" id="fruits">
-                <label class="label-text label-fruits" for="fruits">Фрукты</label>
+                <label class="label-text-two label-fruits" for="fruits">Фрукты</label>
                 <input type="checkbox" name="syrup" id="syrup">
-                <label class="label-text label-syrup" for="syrup">Сиропы</label>
+                <label class="label-text-two label-syrup" for="syrup">Сиропы</label>
                 <input type="checkbox" name="jam" id="jam">
-                <label class="label-text label-jam" for="jam">Джемы</label>
+                <label class="label-text-two label-jam" for="jam">Джемы</label>
               </fieldset>
             </div>
             <button class="btn-apply" type="submit">Применить</button>
@@ -445,14 +445,16 @@
         </ul>
       </div>
       <ul class="footer-menu">
-        <li class=" footer-menu heart"><a class="footer-menu info info-two" href="#">Для поставщиков</a></li>
-        <li><a class="footer-menu info" href="#">О производстве</a></li>
-        <li><a class="footer-menu info" href="#">Наши документы</a></li>
-        <li><a class="footer-menu info" href="#">Экологические стандарты</a></li>
+        <li class=" footer-menu heart"><a class="footer-menu info-one" href="#">Для поставщиков</a></li>
+        <li><a class="footer-menu info-two" href="#">Наши документы</a></li>
+        <li><a class="footer-menu info-two" href="#">О производстве</a></li>
+        <li><a class="footer-menu info-two" href="#">Экологические стандарты</a></li>
       </ul>
       <div class="copyright-link">
         <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
-        <div>Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/">HTML Academy</a> &#169; 2017</div>
+        <div>
+          <p class="made-in">Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/">HTML Academy</a> &#169; 2017</p>
+        </div>
       </div>
     </footer>
   </div>

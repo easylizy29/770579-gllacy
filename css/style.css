@@ -157,7 +157,6 @@ a {
 .site-wrapper::before,
 .site-wrapper::after {
   content: "";
-
   visibility: hidden;
 }
 
@@ -237,12 +236,12 @@ ul.slider-pagination {
 .breadcrumbs {
   display:flex;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 18.5px;
   color: #ffffff;
   text-decoration: underline;
   list-style: none;
   margin-left: -62px;
-  padding-bottom: 0;
+  padding-bottom: 1px;
   padding-top: 0;
 }
 
@@ -482,7 +481,7 @@ ul.slider-pagination {
 .phone {
   flex-direction: column;
   padding-left: 25px;
-  font-size: 22px;
+  font-size: 22.5px;
   line-height: 5px;
   font-weight: 400;
   color: #ffffff;
@@ -676,7 +675,7 @@ ul.slider-pagination {
 
 .catalog-item {
     position: relative;
-    padding: 6px 0 20px 0;
+    padding: 4px 0 20px 0;
     text-align: center;
     box-sizing: border-box;
     width: 267px;
@@ -709,8 +708,8 @@ ul.slider-pagination {
   line-height: 45px;
   font-weight: 700;
   position: absolute;
-  bottom: 12px;
-  left: 83px;
+  bottom: 16px;
+  left: 81px;
 }
 
 .weight-1 {
@@ -719,8 +718,8 @@ ul.slider-pagination {
   line-height: 45px;
   font-weight: 700;
   position: absolute;
-  bottom: 8px;
-  left: 112px;
+  bottom: 12px;
+  left: 115px;
 }
 
 .weight-0 {
@@ -747,7 +746,7 @@ ul.slider-pagination {
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
-  margin: 13px 0 10px 0;
+  margin: 8px 0 15.5px 0;
   padding: 0 5px;
   display: block;
 }
@@ -769,7 +768,7 @@ ul.slider-pagination {
     font-size: 45px;
     line-height: 45px;
     font-weight: 700;
-    bottom: 13px;
+    bottom: 18px;
     left: 0;
     display: block;
 }
@@ -783,7 +782,7 @@ ul.slider-pagination {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   padding: 0 0 0 0;
 }
 
@@ -985,20 +984,16 @@ text-decoration: none;
 
 .social-list {
   list-style: none;
-  padding: 10px;
+  padding: 0 0 0 0;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding: 0;
-
   align-items: center;
-
-
 }
 
 .social-list li {
-  margin-right: 7px;
   background-size: cover;
+  margin: 0 12px 10px 0;
 }
 
 .social-link {
@@ -1055,21 +1050,20 @@ text-decoration: none;
 
 .footer-menu {
   list-style: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 417px;
+  margin: -5px 0 2px 0;
 }
 
 .footer-menu li {
   width: 50%;
-  margin-top: 8px;
+  margin: 0 -30px 0 -2px;
 }
 
 .footer-menu:hover,
 .footer-menu:focus li {
   color: #ffbc9e;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .user:hover .basket-form {
@@ -1077,7 +1071,6 @@ text-decoration: none;
 }
 
 .basket-form {
-
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 13px;
   line-height: 16px;
@@ -1155,7 +1148,6 @@ text-decoration: none;
 
 .basket-item-text {
   padding-right: 10px;
-
 }
 
 .thing-one {
@@ -1587,15 +1579,8 @@ text-decoration: none;
   background-repeat: no-repeat;
 }
 
-
-.info {
+.info-one {
   font-size: 13px;
-  line-height: 18px;
-  text-decoration: underline;
-  color: #ffffff;
-}
-
-.info-two {
   position: relative;
   left: 20px;
   text-decoration: underline;
@@ -1603,8 +1588,17 @@ text-decoration: none;
   font-weight: 700;
 }
 
-.copyright-link {
+.info-two {
+  font-size: 13px;
+  text-decoration: underline;
   color: #ffffff;
+  position: relative;
+}
+
+.copyright-link {
+  margin: -37px 6px -9px 0;
+  font-size: 11px;
+  line-height: 13px;
 }
 
 .copyright-link:hover,
@@ -1613,9 +1607,15 @@ text-decoration: none;
   background-color: #849d8f;
 }
 
+.made-in {
+  font-size: 12px;
+  margin: 5px -8px 0 0;
+}
+
 .links-item-copyright {
   color: #ffffff;
   text-decoration: underline;
+  font-size: 12px;
 }
 
 .links-item-copyright:hover,
@@ -1997,11 +1997,30 @@ border-color: 2px solid #2e88e4;
   background: url("../img/radio-on.svg") no-repeat;
 }
 
-.catalog-filter-title {
+.catalog-filter-title-one {
   padding-top: 9px;
   padding-bottom: 5px;
   padding-left: 18px;
   font-size: 14px;
+}
+
+.catalog-filter-title-two {
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-left: 15.9px;
+  font-size: 14.9px;
+}
+.catalog-filter-title-three {
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  font-size: 14.5px;
+}
+.catalog-filter-title-four {
+  padding-top: 13px;
+  padding-bottom: 3.5px;
+  padding-left: 17px;
+  font-size: 14.2px;
 }
 
 .range {
@@ -2068,10 +2087,10 @@ border-color: 2px solid #2e88e4;
 
 .bar {
   content: "";
+  width: 175px;
   height: 4px;
   background-image: linear-gradient(to right, rgba(255,255,255,0.5) 15%, #fff 15%, #fff 70%, rgba(255,255,255,0.5) 70%, rgba(255,255,255,0.5) 100%);
-  bottom: 10px;
-  left: 200px;
+  margin: 0 0 0 7px;
 }
 
 .toggle-one{
@@ -2134,60 +2153,72 @@ border-color: 2px solid #2e88e4;
   height: 35px;
 }
 
-.label-text {
+.label-text-one {
   color: #ffffff;
-  margin-left: 44px;
+}
+
+.label-text-two {
+  line-height: 18px;
 }
 
 .label-chocolate {
   position: relative;
   margin-right: 0;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: 30px;
 }
 
 .label-sugar {
   position: relative;
   margin-right: 0px;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: 46px;
 }
 
 .label-fruits {
   position: relative;
   margin-right: 0px;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: 48px;
 }
 
 .label-syrup {
   position: relative;
   margin-right: 0px;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: 50px;
 }
 
 .label-jam {
   position: relative;
-  margin-right: 0px;
   cursor: pointer;
+  color: #ffffff;
+  margin-left: 47px;
 }
 
 .label-chocolate:before {
   content: "";
   display: block;
   position: absolute;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 23px;
   background: url("../img/checkbox-off.svg") no-repeat;
-  top: 0px;
-  left: -52px;
+  top: -2px;
+  left: -30px;
 }
 
 .label-sugar:before {
   content: "";
   display: block;
   position: absolute;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 23px;
   background: url("../img/checkbox-off.svg") no-repeat;
-  top: 0px;
+  top: -2px;
   left: -31px;
 }
 
@@ -2195,21 +2226,21 @@ border-color: 2px solid #2e88e4;
   content: "";
   display: block;
   position: absolute;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 23px;
   background: url("../img/checkbox-off.svg") no-repeat;
-  top: 0px;
-  left: -31px;
+  top: -2px;
+  left: -33px;
 }
 
 .label-syrup:before {
   content: "";
   display: block;
   position: absolute;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 23px;
   background: url("../img/checkbox-off.svg") no-repeat;
-  top: 0px;
+  top: -2px;
   left: -31px;
 }
 
@@ -2217,11 +2248,11 @@ border-color: 2px solid #2e88e4;
   content: "";
   display: block;
   position: absolute;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 23px;
   background: url("../img/checkbox-off.svg") no-repeat;
-  top: 0px;
-  left: -31px;
+  top: -2px;
+  left: -33px;
 }
 
 .zero {
@@ -2231,6 +2262,7 @@ border-color: 2px solid #2e88e4;
   font-weight: 500;
   position: relative;
   cursor: pointer;
+  margin-left: 32px;
 }
 
 .ten {
@@ -2240,6 +2272,7 @@ border-color: 2px solid #2e88e4;
   font-weight: 500;
   position: relative;
   cursor: pointer;
+  margin-left: 43px;
 }
 
 .thirty {
@@ -2249,6 +2282,7 @@ border-color: 2px solid #2e88e4;
   font-weight: 500;
   position: relative;
   cursor: pointer;
+  margin-left: 48px;
 }
 .over-thirty {
   font-family: "Roboto", "Arial", sans-serif;
@@ -2257,6 +2291,7 @@ border-color: 2px solid #2e88e4;
   font-weight: 500;
   position: relative;
   cursor: pointer;
+  margin-left: 44px;
 }
 
 .zero::before {
@@ -2266,7 +2301,7 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  left: -47px;
+  left: -35px;
   top: -3px;
 }
 
@@ -2277,7 +2312,7 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  left: -45px;
+  left: -32px;
   top: -3px;
 }
 
@@ -2288,7 +2323,7 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  left: -44px;
+  left: -35px;
   top: -3px;
 }
 .over-thirty::before {
@@ -2298,7 +2333,7 @@ border-color: 2px solid #2e88e4;
   width: 31px;
   height: 32px;
   background: url("../img/radio-off.svg") no-repeat;
-  left: -43px;
+  left: -34px;
   top: -3px;
 }
 
@@ -2354,12 +2389,11 @@ width: 417px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-
   flex-direction: row;
   justify-content: flex-end;
   align-items: baseline;
   border-bottom: 1px solid rgba(255,255,255,0.2);
-  margin-top: 54px;
+  margin-top: 46px;
   text-align: right;
   padding-bottom: 29px;
   margin-bottom: 19px;
