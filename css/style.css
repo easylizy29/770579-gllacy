@@ -542,10 +542,10 @@ ul.slider-pagination {
 }
 
 .blog {
-  min-height: 200px;
+  min-height: 220px;
   color: #323232;
   background-color: #ffffff;
-  width: 555px;
+  width: 559px;
   background: url(../img/strawberry-background.jpg);
   border-radius: 15px;
 }
@@ -673,7 +673,7 @@ ul.slider-pagination {
 
 .catalog-item {
     position: relative;
-    padding: 4px 0 20px 0;
+    padding: 5px 0 18px 0;
     text-align: center;
     box-sizing: border-box;
     width: 267px;
@@ -706,8 +706,8 @@ ul.slider-pagination {
   line-height: 45px;
   font-weight: 700;
   position: absolute;
-  bottom: 16px;
-  left: 81px;
+  bottom: 14px;
+  left: 81.5px;
 }
 
 .weight-1 {
@@ -717,7 +717,7 @@ ul.slider-pagination {
   font-weight: 700;
   position: absolute;
   bottom: 12px;
-  left: 115px;
+  left: 113px;
 }
 
 .weight-0 {
@@ -816,19 +816,17 @@ ul.slider-pagination {
 
 .about {
   box-sizing: border-box;
-  margin-bottom: 40px;
-
+  margin: 5px 0 0 0;
   position: relative;
   color: #323232;
 }
 
 .about-background {
-  color: #323232;
   background-color: #ebdfc7;
   background-image: url("../img/wafer.jpg");
-  padding: 20px;
+  padding: 2px 21px 16px 18px;
   border-radius: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 17px;
   font-weight: 400;
@@ -840,35 +838,46 @@ ul.slider-pagination {
   box-sizing: border-box;
   padding-left: 56px;
   width: 541px;
+}
 
+.item-text {
+  margin: 14px 0 11px 3px;
 }
 
 .about-item-equipment {
   background-image:url("../img/ice-cream.svg");
   background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .about-item-natural-products {
   background-image:url("../img/cow.svg");
   background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .about-item-purchase {
   background-image:url("../img/eco.svg");
   background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .about-item-quality {
   background-image:url("../img/thermometer.svg");
   background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .about-title {
+  line-height: 34.5px;
   font-size: 24px;
-  line-height: 30px;
   font-weight: 500;
   color: #323232;
-  margin: 0 0 20px;
+  margin: 17px 0 5px -1px;
 }
 
 .about-list {
@@ -2391,10 +2400,10 @@ width: 417px;
   justify-content: flex-end;
   align-items: baseline;
   border-bottom: 1px solid rgba(255,255,255,0.2);
-  margin-top: 46px;
+  margin-top: 49px;
   text-align: right;
   padding-bottom: 29px;
-  margin-bottom: 19px;
+  margin-bottom: 18px;
 }
 
 
