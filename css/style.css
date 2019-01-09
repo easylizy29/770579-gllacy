@@ -910,13 +910,13 @@ ul.slider-pagination {
 .contacts {
   text-align: left;
   background: #ffffff;
-  width: 267px;
+  width: 301px;
   min-height: 305px;
-  padding-left: 25px;
+  padding: 29px 18px 0 25px;
   border-radius: 15px;
   position: absolute;
-  right: 440px;
-  top: 1920px;
+  right: 377px;
+  top: 1947px;
 }
 
 .pin {
@@ -927,24 +927,44 @@ ul.slider-pagination {
   left: 241px;
 }
 
-.contacts-caption {
+.contacts-caption-one {
   font-size: 14px;
   line-height: 20px;
   color: #323232;
+  margin: 0 0 0 0;
+  width: 150px;
 }
 
-.contacts-caption-2 {
+.contacts-caption-two {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
   color: #323232;
-  padding-left: 2px;
+  margin: 1px 0 19px 0;
+}
+
+.contacts-caption-three {
+  font-size: 14px;
+  line-height: 20px;
+  color: #323232;
+  margin: 0 0 4px 0;
+}
+
+.contacts-caption-four{
+  font-size: 18px;
+  line-height: 24px;
+  color: #323232;
+}
+
+.contacts-caption-five {
+  font-size: 17px;
+  line-height: 24px;
+  color: #323232;
+  margin: -2px 0 22px 0;
 }
 
 .btn-contacts {
   display: inline-block;
-  padding: 10px 20px;
-
+  padding: 10px 27px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
