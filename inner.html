@@ -23,7 +23,7 @@
             <div class="sub-menu">
               <ul>
                 <li class="sub-list new"><a href="#">Новинки</a></li>
-                <li class="sub-list active"><a href="#">Сливочное</a></li>
+                <li class="sub-list"><a href="#">Сливочное</a></li>
                 <li class="sub-list"><a href="#">Щербеты</a></li>
                 <li class="sub-list"><a href="#">Фруктовый лед</a></li>
                 <li class="sub-list"><a href="#">Мелорин</a></li>
@@ -35,7 +35,7 @@
         </ul>
         <ul class="user-navigation">
           <li class="user user-search">
-            <span class="user-search-loupe user-search-loupe-picture" href="#" aria-label="Поиск">Поиск</span>
+            <a class="user-search-loupe user-search-loupe-picture" href="#" aria-label="Поиск">Поиск</a>
             <!-- Поиск -->
             <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
               <div class="field-wrapper">
@@ -131,7 +131,7 @@
             <div>
               <legend class="catalog-filter-title-one">Сортировка:</legend>
               <div class="catalog-filter-group">
-                <select class="select">
+                <select class="sort-select">
                   <option class="select-list" value="popular" selected>по популярности</option>
                   <option class="select-list" value="expensive"><a href="#">сначала недорогие</a></option>
                   <option class="select-list" value="notexpensive"><a href="#">сначала дорогие</a></option>
@@ -153,13 +153,13 @@
               <legend class="catalog-filter-title-three">Жирность:</legend>
               <fieldset class="radio-fat-group">
                 <input type="radio" name="fat" id="zero">
-                <label class="label-text-one zero" for="zero">0%</label>
+                <label class="label-text-one" for="zero">0%</label>
                 <input type="radio" name="fat" id="ten" checked>
-                <label class="label-text-one ten" for="ten">до 10%</label>
+                <label class="label-text-one" for="ten">до 10%</label>
                 <input type="radio" name="fat" id="thirty">
-                <label class="label-text-one thirty" for="thirty">до 30%</label>
+                <label class="label-text-one" for="thirty">до 30%</label>
                 <input type="radio" name="fat" id="more-thirty">
-                <label class="label-text-one over-thirty" for="more-thirty">выше 30%</label>
+                <label class="label-text-one" for="more-thirty">выше 30%</label>
               </fieldset>
             </div>
             <div class="filter-wrapper">
