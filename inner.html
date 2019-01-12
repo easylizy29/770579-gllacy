@@ -13,10 +13,9 @@
   <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-      <img src="img/logo.svg" width="154" height="64"
-      alt="Логотип-магазина-Глейси">
-      </a>
+        <a href="index.html" class="main-header-logo">
+          <img src="img/logo.svg" width="154" height="64" alt="Логотип-магазина-Глейси">
+        </a>
         <ul class="site-navigation">
           <li class="site-item has-children">
             <a href="inner.html" class="push catalog-hover">Каталог</a>
@@ -152,29 +151,33 @@
             <div class="fat">
               <legend class="catalog-filter-title-three">Жирность:</legend>
               <fieldset class="radio-fat-group">
-                <input type="radio" name="fat" id="zero">
-                <label class="label-text-one" for="zero">0%</label>
-                <input type="radio" name="fat" id="ten" checked>
-                <label class="label-text-one" for="ten">до 10%</label>
-                <input type="radio" name="fat" id="thirty">
-                <label class="label-text-one" for="thirty">до 30%</label>
-                <input type="radio" name="fat" id="more-thirty">
-                <label class="label-text-one" for="more-thirty">выше 30%</label>
+                <form class="radio-list">
+                  <input type="radio" name="fat" id="zero">
+                  <label class="label-text-one" for="zero">0%</label>
+                  <input type="radio" name="fat" id="ten" checked>
+                  <label class="label-text-one" for="ten">до 10%</label>
+                  <input type="radio" name="fat" id="thirty">
+                  <label class="label-text-one" for="thirty">до 30%</label>
+                  <input type="radio" name="fat" id="more-thirty">
+                  <label class="label-text-one" for="more-thirty">выше 30%</label>
+                </form>
               </fieldset>
             </div>
             <div class="filter-wrapper">
               <legend class="catalog-filter-title-four">Наполнители:</legend>
               <fieldset class="filter-checkbox-group">
-                <input type="checkbox" name="chocolate" id="chocolate" checked>
-                <label class="label-text-two label-chocolate" for="chocolate">Шоколадные</label>
-                <input type="checkbox" name="sugar" id="sugar" checked>
-                <label class="label-text-two label-sugar" for="sugar">Сахарные присыпки</label>
-                <input type="checkbox" name="fruits" id="fruits">
-                <label class="label-text-two label-fruits" for="fruits">Фрукты</label>
-                <input type="checkbox" name="syrup" id="syrup">
-                <label class="label-text-two label-syrup" for="syrup">Сиропы</label>
-                <input type="checkbox" name="jam" id="jam">
-                <label class="label-text-two label-jam" for="jam">Джемы</label>
+                <form class="checkbox-list">
+                  <input type="checkbox" name="chocolate" id="chocolate" checked>
+                  <label class="label-text-two" for="chocolate">шоколадные</label>
+                  <input type="checkbox" name="sugar" id="sugar" checked>
+                  <label class="label-text-two" for="sugar">сахарные присыпки</label>
+                  <input type="checkbox" name="fruits" id="fruits">
+                  <label class="label-text-two" for="fruits">фрукты</label>
+                  <input type="checkbox" name="syrup" id="syrup">
+                  <label class="label-text-two" for="syrup">сиропы</label>
+                  <input type="checkbox" name="jam" id="jam">
+                  <label class="label-text-two" for="jam">джемы</label>
+                </form>
               </fieldset>
             </div>
             <button class="btn-apply" type="submit">Применить</button>
@@ -451,9 +454,9 @@
         <li><a class="footer-menu info-two" href="#">Экологические стандарты</a></li>
       </ul>
       <div class="copyright-link">
-        <a href="https://htmlacademy.ru/"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="htmlacademy" width="108" height="38"></a>
         <div>
-          <p class="made-in">Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/">HTML Academy</a> &#169; 2017</p>
+          <p class="made-in">Сделано в <a class="links-item-copyright" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &#169; 2017</p>
         </div>
       </div>
     </footer>
